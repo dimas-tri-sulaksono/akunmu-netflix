@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>1 email</name>
+   <tag></tag>
+   <elementGuidId>fb35e51a-714b-4f9b-8ed0-391b8cd46e4f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>label.placeLabel</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='appMountPoint']/div/div[3]/div/div/div/form/div/div/div/label/label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>4e70bdd1-6e86-400d-87ea-d13352f6c5b2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>id_userLoginId</value>
+      <webElementGuid>1372c79e-7554-4a36-a845-963b8bd536f5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>placeLabel</value>
+      <webElementGuid>d615695f-0d97-4b24-9263-79d25137f5b6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Email or phone number</value>
+      <webElementGuid>7125d6ee-ff6d-4b01-82a8-d90472d123e1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;appMountPoint&quot;)/div[@class=&quot;login-wrapper hybrid-login-wrapper&quot;]/div[@class=&quot;login-body&quot;]/div[1]/div[@class=&quot;login-content login-form hybrid-login-form hybrid-login-form-signup&quot;]/div[@class=&quot;hybrid-login-form-main&quot;]/form[@class=&quot;login-form&quot;]/div[@class=&quot;nfInput nfEmailPhoneInput nfEmailPhoneInError login-input login-input-email&quot;]/div[@class=&quot;nfInputPlacement&quot;]/div[@class=&quot;nfEmailPhoneControls&quot;]/label[@class=&quot;input_id&quot;]/label[@class=&quot;placeLabel&quot;]</value>
+      <webElementGuid>69d41af0-680a-4015-8559-39218acd9464</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='appMountPoint']/div/div[3]/div/div/div/form/div/div/div/label/label</value>
+      <webElementGuid>6ba65a92-a889-44c8-b653-fb8b8f45cf7f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//label/label</value>
+      <webElementGuid>b860fe59-778a-4103-97f6-0be38dd35407</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Email or phone number' or . = 'Email or phone number')]</value>
+      <webElementGuid>7c9f6680-20de-4159-a4ac-30fd3d2201a8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
