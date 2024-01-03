@@ -1,0 +1,734 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Reset Pin" time="111.507" tests="1" failures="0" errors="0">
+   <testsuite name="Reset Pin" tests="1" failures="0" errors="0" time="111.507" skipped="0" timestamp="02-01-2024T13:16:33" hostname="abyad - Thinkbook" id="Test Suites/Reset Pin">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\katalon\\akunmu-netflix\\Reports\\20240102_131625\\Reset Pin\\20240102_131625"/>
+         <property name="logFiles" value="D:\\katalon\\akunmu-netflix\\Reports\\20240102_131625\\Reset Pin\\20240102_131625\\execution0.log"/>
+         <property name="attachments" value="D:\\katalon\\akunmu-netflix\\Reports\\20240102_131625\\Reset Pin\\20240102_131625\\1704176216092.png, D:\\katalon\\akunmu-netflix\\Reports\\20240102_131625\\Reset Pin\\20240102_131625\\1704176233411.png, D:\\katalon\\akunmu-netflix\\Reports\\20240102_131625\\Reset Pin\\20240102_131625\\1704176251409.png, D:\\katalon\\akunmu-netflix\\Reports\\20240102_131625\\Reset Pin\\20240102_131625\\1704176268552.png, D:\\katalon\\akunmu-netflix\\Reports\\20240102_131625\\Reset Pin\\20240102_131625\\1704176286298.png"/>
+         <property name="hostName" value="abyad - Thinkbook"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.18.169"/>
+         <property name="sessionId" value="9f48288ba8e310bdbe3f6f3b46400a87"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/TC Pin" time="110.91" classname="Test Cases/TC Pin" status="PASSED">
+         <system-out><![CDATA[02-01-2024T13:16:33 - [TEST_CASE][PASSED] - Test Cases/TC Pin: Test Cases/TC Pin
+
+02-01-2024T13:16:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+02-01-2024T13:16:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+02-01-2024T13:16:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+02-01-2024T13:16:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+02-01-2024T13:16:36 - [TEST_STEP][PASSED] - navigateToUrl("https://www.netflix.com/id/login"): Navigate to 'https://www.netflix.com/id/login' successfully
+
+02-01-2024T13:16:40 - [MESSAGE][PASSED] - Navigate to 'https://www.netflix.com/id/login' successfully
+
+02-01-2024T13:16:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/1 email")): Object: 'Object Repository/Login/1 email' is clicked on
+
+02-01-2024T13:16:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/1 email' is clicked on
+
+02-01-2024T13:16:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/2 user id"), email): Text 'evn@frilsa.com' is set on object 'Object Repository/Login/2 user id'
+
+02-01-2024T13:16:41 - [MESSAGE][PASSED] - Text 'evn@frilsa.com' is set on object 'Object Repository/Login/2 user id'
+
+02-01-2024T13:16:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/3 password"), password): Text 'aku1100' is set on object 'Object Repository/Login/3 password'
+
+02-01-2024T13:16:42 - [MESSAGE][PASSED] - Text 'aku1100' is set on object 'Object Repository/Login/3 password'
+
+02-01-2024T13:16:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/4 sign in")): Object: 'Object Repository/Login/4 sign in' is clicked on
+
+02-01-2024T13:16:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/4 sign in' is clicked on
+
+02-01-2024T13:16:42 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+02-01-2024T13:16:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+02-01-2024T13:16:44 - [TEST_STEP][PASSED] - navigateToUrl("https://www.netflix.com/YourAccount"): Navigate to 'https://www.netflix.com/YourAccount' successfully
+
+02-01-2024T13:16:50 - [MESSAGE][PASSED] - Navigate to 'https://www.netflix.com/YourAccount' successfully
+
+02-01-2024T13:16:50 - [TEST_STEP][PASSED] - click(findTestObject("Pin/pin expand button 1")): Object: 'Object Repository/Pin/pin expand button 1' is clicked on
+
+02-01-2024T13:16:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Pin/pin expand button 1' is clicked on
+
+02-01-2024T13:16:50 - [TEST_STEP][PASSED] - click(findTestObject("Pin/pin change 1")): Object: 'Object Repository/Pin/pin change 1' is clicked on
+
+02-01-2024T13:16:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Pin/pin change 1' is clicked on
+
+02-01-2024T13:16:52 - [TEST_STEP][PASSED] - setText(findTestObject("Pin/pin input password"), password): Text 'aku1100' is set on object 'Object Repository/Pin/pin input password'
+
+02-01-2024T13:16:53 - [MESSAGE][PASSED] - Text 'aku1100' is set on object 'Object Repository/Pin/pin input password'
+
+02-01-2024T13:16:53 - [TEST_STEP][PASSED] - click(findTestObject("Pin/pin input password continue")): Object: 'Object Repository/Pin/pin input password continue' is clicked on
+
+02-01-2024T13:16:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Pin/pin input password continue' is clicked on
+
+02-01-2024T13:16:53 - [TEST_STEP][PASSED] - if (verifyElementNotPresent(findTestObject("Pin/pin input A"), 2, OPTIONAL)): Web element with id: 'Object Repository/Pin/pin input A' located by 'By.xpath: //*[@id="appMountPoint"]/div/div/div/div[2]/div/div/div[2]/div[3]/input[1]' is present after '2' second(s) (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Pin/pin input A' located by 'By.xpath: //*[@id="appMountPoint"]/div/div/div/div[2]/div/div/div[2]/div[3]/input[1]' is present after '2' second(s)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:113)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:122)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1520)
+	at TC Pin.run(TC Pin:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704176185882.run(TempTestSuite1704176185882.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+02-01-2024T13:16:56 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Pin/pin input A' located by 'By.xpath: //*[@id="appMountPoint"]/div/div/div/div[2]/div/div/div[2]/div[3]/input[1]' is present after '2' second(s) (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Pin/pin input A' located by 'By.xpath: //*[@id="appMountPoint"]/div/div/div/div[2]/div/div/div[2]/div[3]/input[1]' is present after '2' second(s)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:113)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:122)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1520)
+	at TC Pin.run(TC Pin:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704176185882.run(TempTestSuite1704176185882.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|D:\\katalon\\akunmu-netflix\\Reports\\20240102_131625\\Reset Pin\\20240102_131625\\1704176216092.png]]
+
+02-01-2024T13:16:56 - [TEST_STEP][PASSED] - else: Object: 'Object Repository/Pin/pin input save 1' is clicked on
+
+02-01-2024T13:16:56 - [TEST_STEP][PASSED] - click(findTestObject("Pin/pin checkbox")): Object: 'Object Repository/Pin/pin checkbox' is clicked on
+
+02-01-2024T13:16:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Pin/pin checkbox' is clicked on
+
+02-01-2024T13:16:56 - [TEST_STEP][PASSED] - click(findTestObject("Pin/pin input save 1a")): Object: 'Object Repository/Pin/pin input save 1a' is clicked on
+
+02-01-2024T13:16:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Pin/pin input save 1a' is clicked on
+
+02-01-2024T13:16:57 - [TEST_STEP][PASSED] - click(findTestObject("Pin/pin expand button 1")): Object: 'Object Repository/Pin/pin expand button 1' is clicked on
+
+02-01-2024T13:16:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Pin/pin expand button 1' is clicked on
+
+02-01-2024T13:16:59 - [TEST_STEP][PASSED] - click(findTestObject("Pin/pin change 1")): Object: 'Object Repository/Pin/pin change 1' is clicked on
+
+02-01-2024T13:17:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Pin/pin change 1' is clicked on
+
+02-01-2024T13:17:00 - [TEST_STEP][PASSED] - setText(findTestObject("Pin/pin input password"), password): Text 'aku1100' is set on object 'Object Repository/Pin/pin input password'
+
+02-01-2024T13:17:01 - [MESSAGE][PASSED] - Text 'aku1100' is set on object 'Object Repository/Pin/pin input password'
+
+02-01-2024T13:17:01 - [TEST_STEP][PASSED] - click(findTestObject("Pin/pin input password continue")): Object: 'Object Repository/Pin/pin input password continue' is clicked on
+
+02-01-2024T13:17:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Pin/pin input password continue' is clicked on
+
+02-01-2024T13:17:01 - [TEST_STEP][PASSED] - click(findTestObject("Pin/pin checkbox")): Object: 'Object Repository/Pin/pin checkbox' is clicked on
+
+02-01-2024T13:17:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Pin/pin checkbox' is clicked on
+
+02-01-2024T13:17:02 - [TEST_STEP][PASSED] - setText(findTestObject("Pin/pin input A"), "1"): Text '1' is set on object 'Object Repository/Pin/pin input A'
+
+02-01-2024T13:17:03 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Pin/pin input A'
+
+02-01-2024T13:17:03 - [TEST_STEP][PASSED] - setText(findTestObject("Pin/pin input B"), "1"): Text '1' is set on object 'Object Repository/Pin/pin input B'
+
+02-01-2024T13:17:04 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Pin/pin input B'
+
+02-01-2024T13:17:04 - [TEST_STEP][PASSED] - setText(findTestObject("Pin/pin input C"), "1"): Text '1' is set on object 'Object Repository/Pin/pin input C'
+
+02-01-2024T13:17:05 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Pin/pin input C'
+
+02-01-2024T13:17:05 - [TEST_STEP][PASSED] - setText(findTestObject("Pin/pin input D"), "1"): Text '1' is set on object 'Object Repository/Pin/pin input D'
+
+02-01-2024T13:17:05 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Pin/pin input D'
+
+02-01-2024T13:17:05 - [TEST_STEP][PASSED] - click(findTestObject("Pin/pin input save 1")): Object: 'Object Repository/Pin/pin input save 1' is clicked on
+
+02-01-2024T13:17:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Pin/pin input save 1' is clicked on
+
+02-01-2024T13:17:06 - [TEST_STEP][PASSED] - click(findTestObject("Pin/pin expand button 2")): Object: 'Object Repository/Pin/pin expand button 2' is clicked on
+
+02-01-2024T13:17:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Pin/pin expand button 2' is clicked on
+
+02-01-2024T13:17:08 - [TEST_STEP][PASSED] - click(findTestObject("Pin/pin change 2")): Object: 'Object Repository/Pin/pin change 2' is clicked on
+
+02-01-2024T13:17:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Pin/pin change 2' is clicked on
+
+02-01-2024T13:17:09 - [TEST_STEP][PASSED] - setText(findTestObject("Pin/pin input password"), password): Text 'aku1100' is set on object 'Object Repository/Pin/pin input password'
+
+02-01-2024T13:17:10 - [MESSAGE][PASSED] - Text 'aku1100' is set on object 'Object Repository/Pin/pin input password'
+
+02-01-2024T13:17:10 - [TEST_STEP][PASSED] - click(findTestObject("Pin/pin input password continue")): Object: 'Object Repository/Pin/pin input password continue' is clicked on
+
+02-01-2024T13:17:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Pin/pin input password continue' is clicked on
+
+02-01-2024T13:17:11 - [TEST_STEP][PASSED] - if (verifyElementNotPresent(findTestObject("Pin/pin input A"), 2, OPTIONAL)): Web element with id: 'Object Repository/Pin/pin input A' located by 'By.xpath: //*[@id="appMountPoint"]/div/div/div/div[2]/div/div/div[2]/div[3]/input[1]' is present after '2' second(s) (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Pin/pin input A' located by 'By.xpath: //*[@id="appMountPoint"]/div/div/div/div[2]/div/div/div[2]/div[3]/input[1]' is present after '2' second(s)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:113)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:122)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1520)
+	at TC Pin.run(TC Pin:85)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704176185882.run(TempTestSuite1704176185882.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+02-01-2024T13:17:13 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Pin/pin input A' located by 'By.xpath: //*[@id="appMountPoint"]/div/div/div/div[2]/div/div/div[2]/div[3]/input[1]' is present after '2' second(s) (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Pin/pin input A' located by 'By.xpath: //*[@id="appMountPoint"]/div/div/div/div[2]/div/div/div[2]/div[3]/input[1]' is present after '2' second(s)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:113)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:122)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1520)
+	at TC Pin.run(TC Pin:85)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704176185882.run(TempTestSuite1704176185882.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|D:\\katalon\\akunmu-netflix\\Reports\\20240102_131625\\Reset Pin\\20240102_131625\\1704176233411.png]]
+
+02-01-2024T13:17:13 - [TEST_STEP][PASSED] - else: Object: 'Object Repository/Pin/pin input save 2' is clicked on
+
+02-01-2024T13:17:13 - [TEST_STEP][PASSED] - click(findTestObject("Pin/pin checkbox")): Object: 'Object Repository/Pin/pin checkbox' is clicked on
+
+02-01-2024T13:17:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Pin/pin checkbox' is clicked on
+
+02-01-2024T13:17:13 - [TEST_STEP][PASSED] - click(findTestObject("Pin/pin input save 1a")): Object: 'Object Repository/Pin/pin input save 1a' is clicked on
+
+02-01-2024T13:17:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Pin/pin input save 1a' is clicked on
+
+02-01-2024T13:17:14 - [TEST_STEP][PASSED] - click(findTestObject("Pin/pin expand button 2")): Object: 'Object Repository/Pin/pin expand button 2' is clicked on
+
+02-01-2024T13:17:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Pin/pin expand button 2' is clicked on
+
+02-01-2024T13:17:17 - [TEST_STEP][PASSED] - click(findTestObject("Pin/pin change 2")): Object: 'Object Repository/Pin/pin change 2' is clicked on
+
+02-01-2024T13:17:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Pin/pin change 2' is clicked on
+
+02-01-2024T13:17:18 - [TEST_STEP][PASSED] - setText(findTestObject("Pin/pin input password"), password): Text 'aku1100' is set on object 'Object Repository/Pin/pin input password'
+
+02-01-2024T13:17:19 - [MESSAGE][PASSED] - Text 'aku1100' is set on object 'Object Repository/Pin/pin input password'
+
+02-01-2024T13:17:19 - [TEST_STEP][PASSED] - click(findTestObject("Pin/pin input password continue")): Object: 'Object Repository/Pin/pin input password continue' is clicked on
+
+02-01-2024T13:17:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Pin/pin input password continue' is clicked on
+
+02-01-2024T13:17:20 - [TEST_STEP][PASSED] - click(findTestObject("Pin/pin checkbox")): Object: 'Object Repository/Pin/pin checkbox' is clicked on
+
+02-01-2024T13:17:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Pin/pin checkbox' is clicked on
+
+02-01-2024T13:17:20 - [TEST_STEP][PASSED] - setText(findTestObject("Pin/pin input A"), "1"): Text '1' is set on object 'Object Repository/Pin/pin input A'
+
+02-01-2024T13:17:21 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Pin/pin input A'
+
+02-01-2024T13:17:21 - [TEST_STEP][PASSED] - setText(findTestObject("Pin/pin input B"), "1"): Text '1' is set on object 'Object Repository/Pin/pin input B'
+
+02-01-2024T13:17:22 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Pin/pin input B'
+
+02-01-2024T13:17:22 - [TEST_STEP][PASSED] - setText(findTestObject("Pin/pin input C"), "1"): Text '1' is set on object 'Object Repository/Pin/pin input C'
+
+02-01-2024T13:17:23 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Pin/pin input C'
+
+02-01-2024T13:17:23 - [TEST_STEP][PASSED] - setText(findTestObject("Pin/pin input D"), "2"): Text '2' is set on object 'Object Repository/Pin/pin input D'
+
+02-01-2024T13:17:24 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/Pin/pin input D'
+
+02-01-2024T13:17:24 - [TEST_STEP][PASSED] - click(findTestObject("Pin/pin input save 2")): Object: 'Object Repository/Pin/pin input save 2' is clicked on
+
+02-01-2024T13:17:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Pin/pin input save 2' is clicked on
+
+02-01-2024T13:17:24 - [TEST_STEP][PASSED] - click(findTestObject("Pin/pin expand button 3")): Object: 'Object Repository/Pin/pin expand button 3' is clicked on
+
+02-01-2024T13:17:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Pin/pin expand button 3' is clicked on
+
+02-01-2024T13:17:26 - [TEST_STEP][PASSED] - click(findTestObject("Pin/pin change 3")): Object: 'Object Repository/Pin/pin change 3' is clicked on
+
+02-01-2024T13:17:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Pin/pin change 3' is clicked on
+
+02-01-2024T13:17:27 - [TEST_STEP][PASSED] - setText(findTestObject("Pin/pin input password"), password): Text 'aku1100' is set on object 'Object Repository/Pin/pin input password'
+
+02-01-2024T13:17:28 - [MESSAGE][PASSED] - Text 'aku1100' is set on object 'Object Repository/Pin/pin input password'
+
+02-01-2024T13:17:28 - [TEST_STEP][PASSED] - click(findTestObject("Pin/pin input password continue")): Object: 'Object Repository/Pin/pin input password continue' is clicked on
+
+02-01-2024T13:17:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Pin/pin input password continue' is clicked on
+
+02-01-2024T13:17:29 - [TEST_STEP][PASSED] - if (verifyElementNotPresent(findTestObject("Pin/pin input A"), 2, OPTIONAL)): Web element with id: 'Object Repository/Pin/pin input A' located by 'By.xpath: //*[@id="appMountPoint"]/div/div/div/div[2]/div/div/div[2]/div[3]/input[1]' is present after '2' second(s) (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Pin/pin input A' located by 'By.xpath: //*[@id="appMountPoint"]/div/div/div/div[2]/div/div/div[2]/div[3]/input[1]' is present after '2' second(s)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:113)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:122)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1520)
+	at TC Pin.run(TC Pin:123)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704176185882.run(TempTestSuite1704176185882.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+02-01-2024T13:17:31 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Pin/pin input A' located by 'By.xpath: //*[@id="appMountPoint"]/div/div/div/div[2]/div/div/div[2]/div[3]/input[1]' is present after '2' second(s) (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Pin/pin input A' located by 'By.xpath: //*[@id="appMountPoint"]/div/div/div/div[2]/div/div/div[2]/div[3]/input[1]' is present after '2' second(s)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:113)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:122)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1520)
+	at TC Pin.run(TC Pin:123)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704176185882.run(TempTestSuite1704176185882.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|D:\\katalon\\akunmu-netflix\\Reports\\20240102_131625\\Reset Pin\\20240102_131625\\1704176251409.png]]
+
+02-01-2024T13:17:31 - [TEST_STEP][PASSED] - else: Object: 'Object Repository/Pin/pin input save 3' is clicked on
+
+02-01-2024T13:17:31 - [TEST_STEP][PASSED] - click(findTestObject("Pin/pin checkbox")): Object: 'Object Repository/Pin/pin checkbox' is clicked on
+
+02-01-2024T13:17:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Pin/pin checkbox' is clicked on
+
+02-01-2024T13:17:31 - [TEST_STEP][PASSED] - click(findTestObject("Pin/pin input save 1a")): Object: 'Object Repository/Pin/pin input save 1a' is clicked on
+
+02-01-2024T13:17:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Pin/pin input save 1a' is clicked on
+
+02-01-2024T13:17:32 - [TEST_STEP][PASSED] - click(findTestObject("Pin/pin expand button 3")): Object: 'Object Repository/Pin/pin expand button 3' is clicked on
+
+02-01-2024T13:17:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Pin/pin expand button 3' is clicked on
+
+02-01-2024T13:17:34 - [TEST_STEP][PASSED] - click(findTestObject("Pin/pin change 3")): Object: 'Object Repository/Pin/pin change 3' is clicked on
+
+02-01-2024T13:17:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Pin/pin change 3' is clicked on
+
+02-01-2024T13:17:35 - [TEST_STEP][PASSED] - setText(findTestObject("Pin/pin input password"), password): Text 'aku1100' is set on object 'Object Repository/Pin/pin input password'
+
+02-01-2024T13:17:36 - [MESSAGE][PASSED] - Text 'aku1100' is set on object 'Object Repository/Pin/pin input password'
+
+02-01-2024T13:17:36 - [TEST_STEP][PASSED] - click(findTestObject("Pin/pin input password continue")): Object: 'Object Repository/Pin/pin input password continue' is clicked on
+
+02-01-2024T13:17:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Pin/pin input password continue' is clicked on
+
+02-01-2024T13:17:37 - [TEST_STEP][PASSED] - click(findTestObject("Pin/pin checkbox")): Object: 'Object Repository/Pin/pin checkbox' is clicked on
+
+02-01-2024T13:17:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Pin/pin checkbox' is clicked on
+
+02-01-2024T13:17:37 - [TEST_STEP][PASSED] - setText(findTestObject("Pin/pin input A"), "1"): Text '1' is set on object 'Object Repository/Pin/pin input A'
+
+02-01-2024T13:17:38 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Pin/pin input A'
+
+02-01-2024T13:17:38 - [TEST_STEP][PASSED] - setText(findTestObject("Pin/pin input B"), "1"): Text '1' is set on object 'Object Repository/Pin/pin input B'
+
+02-01-2024T13:17:39 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Pin/pin input B'
+
+02-01-2024T13:17:39 - [TEST_STEP][PASSED] - setText(findTestObject("Pin/pin input C"), "1"): Text '1' is set on object 'Object Repository/Pin/pin input C'
+
+02-01-2024T13:17:40 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Pin/pin input C'
+
+02-01-2024T13:17:40 - [TEST_STEP][PASSED] - setText(findTestObject("Pin/pin input D"), "3"): Text '3' is set on object 'Object Repository/Pin/pin input D'
+
+02-01-2024T13:17:41 - [MESSAGE][PASSED] - Text '3' is set on object 'Object Repository/Pin/pin input D'
+
+02-01-2024T13:17:41 - [TEST_STEP][PASSED] - click(findTestObject("Pin/pin input save 3")): Object: 'Object Repository/Pin/pin input save 3' is clicked on
+
+02-01-2024T13:17:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Pin/pin input save 3' is clicked on
+
+02-01-2024T13:17:41 - [TEST_STEP][PASSED] - click(findTestObject("Pin/pin expand button 4")): Object: 'Object Repository/Pin/pin expand button 4' is clicked on
+
+02-01-2024T13:17:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Pin/pin expand button 4' is clicked on
+
+02-01-2024T13:17:43 - [TEST_STEP][PASSED] - click(findTestObject("Pin/pin change 4")): Object: 'Object Repository/Pin/pin change 4' is clicked on
+
+02-01-2024T13:17:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Pin/pin change 4' is clicked on
+
+02-01-2024T13:17:44 - [TEST_STEP][PASSED] - setText(findTestObject("Pin/pin input password"), password): Text 'aku1100' is set on object 'Object Repository/Pin/pin input password'
+
+02-01-2024T13:17:45 - [MESSAGE][PASSED] - Text 'aku1100' is set on object 'Object Repository/Pin/pin input password'
+
+02-01-2024T13:17:45 - [TEST_STEP][PASSED] - click(findTestObject("Pin/pin input password continue")): Object: 'Object Repository/Pin/pin input password continue' is clicked on
+
+02-01-2024T13:17:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Pin/pin input password continue' is clicked on
+
+02-01-2024T13:17:46 - [TEST_STEP][PASSED] - if (verifyElementNotPresent(findTestObject("Pin/pin input A"), 2, OPTIONAL)): Web element with id: 'Object Repository/Pin/pin input A' located by 'By.xpath: //*[@id="appMountPoint"]/div/div/div/div[2]/div/div/div[2]/div[3]/input[1]' is present after '2' second(s) (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Pin/pin input A' located by 'By.xpath: //*[@id="appMountPoint"]/div/div/div/div[2]/div/div/div[2]/div[3]/input[1]' is present after '2' second(s)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:113)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:122)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1520)
+	at TC Pin.run(TC Pin:161)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704176185882.run(TempTestSuite1704176185882.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+02-01-2024T13:17:48 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Pin/pin input A' located by 'By.xpath: //*[@id="appMountPoint"]/div/div/div/div[2]/div/div/div[2]/div[3]/input[1]' is present after '2' second(s) (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Pin/pin input A' located by 'By.xpath: //*[@id="appMountPoint"]/div/div/div/div[2]/div/div/div[2]/div[3]/input[1]' is present after '2' second(s)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:113)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:122)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1520)
+	at TC Pin.run(TC Pin:161)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704176185882.run(TempTestSuite1704176185882.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|D:\\katalon\\akunmu-netflix\\Reports\\20240102_131625\\Reset Pin\\20240102_131625\\1704176268552.png]]
+
+02-01-2024T13:17:48 - [TEST_STEP][PASSED] - else: Object: 'Object Repository/Pin/pin input save 4' is clicked on
+
+02-01-2024T13:17:48 - [TEST_STEP][PASSED] - click(findTestObject("Pin/pin checkbox")): Object: 'Object Repository/Pin/pin checkbox' is clicked on
+
+02-01-2024T13:17:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Pin/pin checkbox' is clicked on
+
+02-01-2024T13:17:48 - [TEST_STEP][PASSED] - click(findTestObject("Pin/pin input save 1a")): Object: 'Object Repository/Pin/pin input save 1a' is clicked on
+
+02-01-2024T13:17:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Pin/pin input save 1a' is clicked on
+
+02-01-2024T13:17:49 - [TEST_STEP][PASSED] - click(findTestObject("Pin/pin expand button 4")): Object: 'Object Repository/Pin/pin expand button 4' is clicked on
+
+02-01-2024T13:17:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Pin/pin expand button 4' is clicked on
+
+02-01-2024T13:17:51 - [TEST_STEP][PASSED] - click(findTestObject("Pin/pin change 4")): Object: 'Object Repository/Pin/pin change 4' is clicked on
+
+02-01-2024T13:17:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Pin/pin change 4' is clicked on
+
+02-01-2024T13:17:52 - [TEST_STEP][PASSED] - setText(findTestObject("Pin/pin input password"), password): Text 'aku1100' is set on object 'Object Repository/Pin/pin input password'
+
+02-01-2024T13:17:53 - [MESSAGE][PASSED] - Text 'aku1100' is set on object 'Object Repository/Pin/pin input password'
+
+02-01-2024T13:17:53 - [TEST_STEP][PASSED] - click(findTestObject("Pin/pin input password continue")): Object: 'Object Repository/Pin/pin input password continue' is clicked on
+
+02-01-2024T13:17:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Pin/pin input password continue' is clicked on
+
+02-01-2024T13:17:54 - [TEST_STEP][PASSED] - click(findTestObject("Pin/pin checkbox")): Object: 'Object Repository/Pin/pin checkbox' is clicked on
+
+02-01-2024T13:17:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Pin/pin checkbox' is clicked on
+
+02-01-2024T13:17:54 - [TEST_STEP][PASSED] - setText(findTestObject("Pin/pin input A"), "1"): Text '1' is set on object 'Object Repository/Pin/pin input A'
+
+02-01-2024T13:17:55 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Pin/pin input A'
+
+02-01-2024T13:17:55 - [TEST_STEP][PASSED] - setText(findTestObject("Pin/pin input B"), "1"): Text '1' is set on object 'Object Repository/Pin/pin input B'
+
+02-01-2024T13:17:56 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Pin/pin input B'
+
+02-01-2024T13:17:56 - [TEST_STEP][PASSED] - setText(findTestObject("Pin/pin input C"), "1"): Text '1' is set on object 'Object Repository/Pin/pin input C'
+
+02-01-2024T13:17:57 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Pin/pin input C'
+
+02-01-2024T13:17:57 - [TEST_STEP][PASSED] - setText(findTestObject("Pin/pin input D"), "4"): Text '4' is set on object 'Object Repository/Pin/pin input D'
+
+02-01-2024T13:17:58 - [MESSAGE][PASSED] - Text '4' is set on object 'Object Repository/Pin/pin input D'
+
+02-01-2024T13:17:58 - [TEST_STEP][PASSED] - click(findTestObject("Pin/pin input save 4")): Object: 'Object Repository/Pin/pin input save 4' is clicked on
+
+02-01-2024T13:17:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Pin/pin input save 4' is clicked on
+
+02-01-2024T13:17:58 - [TEST_STEP][PASSED] - click(findTestObject("Pin/pin expand button 5")): Object: 'Object Repository/Pin/pin expand button 5' is clicked on
+
+02-01-2024T13:18:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Pin/pin expand button 5' is clicked on
+
+02-01-2024T13:18:01 - [TEST_STEP][PASSED] - click(findTestObject("Pin/pin change 5")): Object: 'Object Repository/Pin/pin change 5' is clicked on
+
+02-01-2024T13:18:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Pin/pin change 5' is clicked on
+
+02-01-2024T13:18:02 - [TEST_STEP][PASSED] - setText(findTestObject("Pin/pin input password"), password): Text 'aku1100' is set on object 'Object Repository/Pin/pin input password'
+
+02-01-2024T13:18:03 - [MESSAGE][PASSED] - Text 'aku1100' is set on object 'Object Repository/Pin/pin input password'
+
+02-01-2024T13:18:03 - [TEST_STEP][PASSED] - click(findTestObject("Pin/pin input password continue")): Object: 'Object Repository/Pin/pin input password continue' is clicked on
+
+02-01-2024T13:18:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Pin/pin input password continue' is clicked on
+
+02-01-2024T13:18:03 - [TEST_STEP][PASSED] - if (verifyElementNotPresent(findTestObject("Pin/pin input A"), 2, OPTIONAL)): Web element with id: 'Object Repository/Pin/pin input A' located by 'By.xpath: //*[@id="appMountPoint"]/div/div/div/div[2]/div/div/div[2]/div[3]/input[1]' is present after '2' second(s) (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Pin/pin input A' located by 'By.xpath: //*[@id="appMountPoint"]/div/div/div/div[2]/div/div/div[2]/div[3]/input[1]' is present after '2' second(s)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:113)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:122)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1520)
+	at TC Pin.run(TC Pin:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704176185882.run(TempTestSuite1704176185882.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+02-01-2024T13:18:06 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Pin/pin input A' located by 'By.xpath: //*[@id="appMountPoint"]/div/div/div/div[2]/div/div/div[2]/div[3]/input[1]' is present after '2' second(s) (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Pin/pin input A' located by 'By.xpath: //*[@id="appMountPoint"]/div/div/div/div[2]/div/div/div[2]/div[3]/input[1]' is present after '2' second(s)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:113)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:122)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1520)
+	at TC Pin.run(TC Pin:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704176185882.run(TempTestSuite1704176185882.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|D:\\katalon\\akunmu-netflix\\Reports\\20240102_131625\\Reset Pin\\20240102_131625\\1704176286298.png]]
+
+02-01-2024T13:18:06 - [TEST_STEP][PASSED] - else: Object: 'Object Repository/Pin/pin input save 5' is clicked on
+
+02-01-2024T13:18:06 - [TEST_STEP][PASSED] - click(findTestObject("Pin/pin checkbox")): Object: 'Object Repository/Pin/pin checkbox' is clicked on
+
+02-01-2024T13:18:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Pin/pin checkbox' is clicked on
+
+02-01-2024T13:18:06 - [TEST_STEP][PASSED] - click(findTestObject("Pin/pin input save 1a")): Object: 'Object Repository/Pin/pin input save 1a' is clicked on
+
+02-01-2024T13:18:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Pin/pin input save 1a' is clicked on
+
+02-01-2024T13:18:07 - [TEST_STEP][PASSED] - click(findTestObject("Pin/pin expand button 5")): Object: 'Object Repository/Pin/pin expand button 5' is clicked on
+
+02-01-2024T13:18:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Pin/pin expand button 5' is clicked on
+
+02-01-2024T13:18:10 - [TEST_STEP][PASSED] - click(findTestObject("Pin/pin change 5")): Object: 'Object Repository/Pin/pin change 5' is clicked on
+
+02-01-2024T13:18:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Pin/pin change 5' is clicked on
+
+02-01-2024T13:18:11 - [TEST_STEP][PASSED] - setText(findTestObject("Pin/pin input password"), password): Text 'aku1100' is set on object 'Object Repository/Pin/pin input password'
+
+02-01-2024T13:18:12 - [MESSAGE][PASSED] - Text 'aku1100' is set on object 'Object Repository/Pin/pin input password'
+
+02-01-2024T13:18:12 - [TEST_STEP][PASSED] - click(findTestObject("Pin/pin input password continue")): Object: 'Object Repository/Pin/pin input password continue' is clicked on
+
+02-01-2024T13:18:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Pin/pin input password continue' is clicked on
+
+02-01-2024T13:18:12 - [TEST_STEP][PASSED] - click(findTestObject("Pin/pin checkbox")): Object: 'Object Repository/Pin/pin checkbox' is clicked on
+
+02-01-2024T13:18:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Pin/pin checkbox' is clicked on
+
+02-01-2024T13:18:13 - [TEST_STEP][PASSED] - setText(findTestObject("Pin/pin input A"), "1"): Text '1' is set on object 'Object Repository/Pin/pin input A'
+
+02-01-2024T13:18:14 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Pin/pin input A'
+
+02-01-2024T13:18:14 - [TEST_STEP][PASSED] - setText(findTestObject("Pin/pin input B"), "1"): Text '1' is set on object 'Object Repository/Pin/pin input B'
+
+02-01-2024T13:18:15 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Pin/pin input B'
+
+02-01-2024T13:18:15 - [TEST_STEP][PASSED] - setText(findTestObject("Pin/pin input C"), "1"): Text '1' is set on object 'Object Repository/Pin/pin input C'
+
+02-01-2024T13:18:16 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Pin/pin input C'
+
+02-01-2024T13:18:16 - [TEST_STEP][PASSED] - setText(findTestObject("Pin/pin input D"), "5"): Text '5' is set on object 'Object Repository/Pin/pin input D'
+
+02-01-2024T13:18:17 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Pin/pin input D'
+
+02-01-2024T13:18:17 - [TEST_STEP][PASSED] - click(findTestObject("Pin/pin input save 5")): Object: 'Object Repository/Pin/pin input save 5' is clicked on
+
+02-01-2024T13:18:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Pin/pin input save 5' is clicked on
+
+02-01-2024T13:18:17 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+02-01-2024T13:18:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+02-01-2024T13:18:19 - [TEST_STEP][PASSED] - navigateToUrl("https://www.netflix.com/id/logout"): Navigate to 'https://www.netflix.com/id/logout' successfully
+
+02-01-2024T13:18:20 - [MESSAGE][PASSED] - Navigate to 'https://www.netflix.com/id/logout' successfully
+
+02-01-2024T13:18:20 - [TEST_STEP][PASSED] - click(findTestObject("sign out")): Object: 'Object Repository/sign out' is clicked on
+
+02-01-2024T13:18:22 - [MESSAGE][PASSED] - Object: 'Object Repository/sign out' is clicked on
+
+02-01-2024T13:18:22 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+02-01-2024T13:18:24 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[02-01-2024T13:16:33 - [TEST_SUITE][PASSED] - Reset Pin: Test Cases/TC Pin]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

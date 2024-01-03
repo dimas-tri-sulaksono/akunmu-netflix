@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Reset Pin,Chrome 120.0.0.0,,,02-01-2024 21:16:57,02-01-2024 21:17:12,14.491s,FAILED
+,,,,,,,
+Test Cases/TC Pin,Chrome 120.0.0.0,,,02-01-2024 21:16:58,02-01-2024 21:17:12,13.981s,FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,02-01-2024 21:16:59,02-01-2024 21:17:01,2.239s,PASSED
+"navigateToUrl(""https://www.netflix.com/id/login"")",Chrome 120.0.0.0,,,02-01-2024 21:17:01,02-01-2024 21:17:12,10.813s,FAILED

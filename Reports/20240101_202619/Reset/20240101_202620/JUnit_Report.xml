@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Reset" time="113.389" tests="1" failures="0" errors="0">
+   <testsuite name="Reset" tests="1" failures="0" errors="0" time="113.389" skipped="0" timestamp="01-01-2024T20:26:28" hostname="abyad - Thinkbook" id="Test Suites/Reset">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\katalon\\Netflix\\Netflix - Create Profile\\Reports\\20240101_202619\\Reset\\20240101_202620"/>
+         <property name="logFiles" value="D:\\katalon\\Netflix\\Netflix - Create Profile\\Reports\\20240101_202619\\Reset\\20240101_202620\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="abyad - Thinkbook"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.18.169"/>
+         <property name="sessionId" value="c7cceca9667121d797057a2d43c740a1"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Profile" time="113.078" classname="Test Cases/Profile" status="PASSED">
+         <system-out><![CDATA[01-01-2024T20:26:28 - [TEST_CASE][PASSED] - Test Cases/Profile: Test Cases/Profile
+
+01-01-2024T20:26:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+01-01-2024T20:26:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+01-01-2024T20:26:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+01-01-2024T20:26:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+01-01-2024T20:26:31 - [TEST_STEP][PASSED] - navigateToUrl("https://www.netflix.com/id/login"): Navigate to 'https://www.netflix.com/id/login' successfully
+
+01-01-2024T20:26:34 - [MESSAGE][PASSED] - Navigate to 'https://www.netflix.com/id/login' successfully
+
+01-01-2024T20:26:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/1 email")): Object: 'Object Repository/Login/1 email' is clicked on
+
+01-01-2024T20:26:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/1 email' is clicked on
+
+01-01-2024T20:26:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/2 user id"), email): Text 'ryh@frilsa.com' is set on object 'Object Repository/Login/2 user id'
+
+01-01-2024T20:26:35 - [MESSAGE][PASSED] - Text 'ryh@frilsa.com' is set on object 'Object Repository/Login/2 user id'
+
+01-01-2024T20:26:35 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login/3 password"), "tcoL0gTvL8A="): Text ****** has been set on object 'Object Repository/Login/3 password'
+
+01-01-2024T20:26:36 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/3 password'
+
+01-01-2024T20:26:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/4 sign in")): Object: 'Object Repository/Login/4 sign in' is clicked on
+
+01-01-2024T20:26:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/4 sign in' is clicked on
+
+01-01-2024T20:26:36 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+01-01-2024T20:26:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+01-01-2024T20:26:38 - [TEST_STEP][PASSED] - navigateToUrl("https://www.netflix.com/profiles/manage"): Navigate to 'https://www.netflix.com/profiles/manage' successfully
+
+01-01-2024T20:26:41 - [MESSAGE][PASSED] - Navigate to 'https://www.netflix.com/profiles/manage' successfully
+
+01-01-2024T20:26:41 - [TEST_STEP][PASSED] - click(findTestObject("Profile/profile yang ingin dihapus"), OPTIONAL): Object: 'Object Repository/Profile/profile yang ingin dihapus' is clicked on
+
+01-01-2024T20:26:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Profile/profile yang ingin dihapus' is clicked on
+
+01-01-2024T20:26:41 - [TEST_STEP][PASSED] - click(findTestObject("Profile/profile delete"), OPTIONAL): Object: 'Object Repository/Profile/profile delete' is clicked on
+
+01-01-2024T20:26:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Profile/profile delete' is clicked on
+
+01-01-2024T20:26:43 - [TEST_STEP][PASSED] - click(findTestObject("Profile/profile delete confirm"), OPTIONAL): Object: 'Object Repository/Profile/profile delete confirm' is clicked on
+
+01-01-2024T20:26:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Profile/profile delete confirm' is clicked on
+
+01-01-2024T20:26:43 - [TEST_STEP][PASSED] - click(findTestObject("Profile/profile yang ingin dihapus"), OPTIONAL): Object: 'Object Repository/Profile/profile yang ingin dihapus' is clicked on
+
+01-01-2024T20:26:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Profile/profile yang ingin dihapus' is clicked on
+
+01-01-2024T20:26:44 - [TEST_STEP][PASSED] - click(findTestObject("Profile/profile delete"), OPTIONAL): Object: 'Object Repository/Profile/profile delete' is clicked on
+
+01-01-2024T20:26:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Profile/profile delete' is clicked on
+
+01-01-2024T20:26:45 - [TEST_STEP][PASSED] - click(findTestObject("Profile/profile delete confirm"), OPTIONAL): Object: 'Object Repository/Profile/profile delete confirm' is clicked on
+
+01-01-2024T20:26:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Profile/profile delete confirm' is clicked on
+
+01-01-2024T20:26:46 - [TEST_STEP][PASSED] - click(findTestObject("Profile/profile yang ingin dihapus"), OPTIONAL): Object: 'Object Repository/Profile/profile yang ingin dihapus' is clicked on
+
+01-01-2024T20:26:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Profile/profile yang ingin dihapus' is clicked on
+
+01-01-2024T20:26:47 - [TEST_STEP][PASSED] - click(findTestObject("Profile/profile delete"), OPTIONAL): Object: 'Object Repository/Profile/profile delete' is clicked on
+
+01-01-2024T20:26:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Profile/profile delete' is clicked on
+
+01-01-2024T20:26:48 - [TEST_STEP][PASSED] - click(findTestObject("Profile/profile delete confirm"), OPTIONAL): Object: 'Object Repository/Profile/profile delete confirm' is clicked on
+
+01-01-2024T20:26:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Profile/profile delete confirm' is clicked on
+
+01-01-2024T20:26:49 - [TEST_STEP][PASSED] - click(findTestObject("Profile/profile yang ingin dihapus"), OPTIONAL): Object: 'Object Repository/Profile/profile yang ingin dihapus' is clicked on
+
+01-01-2024T20:26:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Profile/profile yang ingin dihapus' is clicked on
+
+01-01-2024T20:26:49 - [TEST_STEP][PASSED] - click(findTestObject("Profile/profile delete"), OPTIONAL): Object: 'Object Repository/Profile/profile delete' is clicked on
+
+01-01-2024T20:26:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Profile/profile delete' is clicked on
+
+01-01-2024T20:26:51 - [TEST_STEP][PASSED] - click(findTestObject("Profile/profile delete confirm"), OPTIONAL): Object: 'Object Repository/Profile/profile delete confirm' is clicked on
+
+01-01-2024T20:26:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Profile/profile delete confirm' is clicked on
+
+01-01-2024T20:26:51 - [TEST_STEP][PASSED] - navigateToUrl("https://www.netflix.com/profiles/manage", OPTIONAL): Navigate to 'https://www.netflix.com/profiles/manage' successfully
+
+01-01-2024T20:26:53 - [MESSAGE][PASSED] - Navigate to 'https://www.netflix.com/profiles/manage' successfully
+
+01-01-2024T20:26:53 - [TEST_STEP][PASSED] - click(findTestObject("Profile/profile edit name 1")): Object: 'Object Repository/Profile/profile edit name 1' is clicked on
+
+01-01-2024T20:26:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Profile/profile edit name 1' is clicked on
+
+01-01-2024T20:26:53 - [TEST_STEP][PASSED] - clearText(findTestObject("Profile/profile edit name text")): Text of object 'Object Repository/Profile/profile edit name text' is cleared
+
+01-01-2024T20:26:55 - [MESSAGE][PASSED] - Text of object 'Object Repository/Profile/profile edit name text' is cleared
+
+01-01-2024T20:26:55 - [TEST_STEP][PASSED] - setText(findTestObject("Profile/profile edit name text"), "PROFILE 1"): Text 'PROFILE 1' is set on object 'Object Repository/Profile/profile edit name text'
+
+01-01-2024T20:26:55 - [MESSAGE][PASSED] - Text 'PROFILE 1' is set on object 'Object Repository/Profile/profile edit name text'
+
+01-01-2024T20:26:55 - [TEST_STEP][PASSED] - click(findTestObject("Profile/language change")): Object: 'Object Repository/Profile/language change' is clicked on
+
+01-01-2024T20:26:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Profile/language change' is clicked on
+
+01-01-2024T20:26:56 - [TEST_STEP][PASSED] - click(findTestObject("Profile/language indonesia")): Object: 'Object Repository/Profile/language indonesia' is clicked on
+
+01-01-2024T20:26:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Profile/language indonesia' is clicked on
+
+01-01-2024T20:26:56 - [TEST_STEP][PASSED] - click(findTestObject("Profile/profile edit name save")): Object: 'Object Repository/Profile/profile edit name save' is clicked on
+
+01-01-2024T20:26:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Profile/profile edit name save' is clicked on
+
+01-01-2024T20:26:57 - [TEST_STEP][PASSED] - click(findTestObject("Profile/profile add 2")): Object: 'Object Repository/Profile/profile add 2' is clicked on
+
+01-01-2024T20:26:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Profile/profile add 2' is clicked on
+
+01-01-2024T20:26:59 - [TEST_STEP][PASSED] - setText(findTestObject("Profile/profile input name"), "PROFILE 2"): Text 'PROFILE 2' is set on object 'Object Repository/Profile/profile input name'
+
+01-01-2024T20:27:01 - [MESSAGE][PASSED] - Text 'PROFILE 2' is set on object 'Object Repository/Profile/profile input name'
+
+01-01-2024T20:27:01 - [TEST_STEP][PASSED] - click(findTestObject("Profile/profile input name continue")): Object: 'Object Repository/Profile/profile input name continue' is clicked on
+
+01-01-2024T20:27:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Profile/profile input name continue' is clicked on
+
+01-01-2024T20:27:01 - [TEST_STEP][PASSED] - click(findTestObject("Profile/profile add 3")): Object: 'Object Repository/Profile/profile add 3' is clicked on
+
+01-01-2024T20:27:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Profile/profile add 3' is clicked on
+
+01-01-2024T20:27:02 - [TEST_STEP][PASSED] - setText(findTestObject("Profile/profile input name"), "PROFILE 3"): Text 'PROFILE 3' is set on object 'Object Repository/Profile/profile input name'
+
+01-01-2024T20:27:04 - [MESSAGE][PASSED] - Text 'PROFILE 3' is set on object 'Object Repository/Profile/profile input name'
+
+01-01-2024T20:27:04 - [TEST_STEP][PASSED] - click(findTestObject("Profile/profile input name continue")): Object: 'Object Repository/Profile/profile input name continue' is clicked on
+
+01-01-2024T20:27:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Profile/profile input name continue' is clicked on
+
+01-01-2024T20:27:04 - [TEST_STEP][PASSED] - click(findTestObject("Profile/profile add 4")): Object: 'Object Repository/Profile/profile add 4' is clicked on
+
+01-01-2024T20:27:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Profile/profile add 4' is clicked on
+
+01-01-2024T20:27:05 - [TEST_STEP][PASSED] - setText(findTestObject("Profile/profile input name"), "PROFILE 4"): Text 'PROFILE 4' is set on object 'Object Repository/Profile/profile input name'
+
+01-01-2024T20:27:07 - [MESSAGE][PASSED] - Text 'PROFILE 4' is set on object 'Object Repository/Profile/profile input name'
+
+01-01-2024T20:27:07 - [TEST_STEP][PASSED] - click(findTestObject("Profile/profile input name continue")): Object: 'Object Repository/Profile/profile input name continue' is clicked on
+
+01-01-2024T20:27:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Profile/profile input name continue' is clicked on
+
+01-01-2024T20:27:08 - [TEST_STEP][PASSED] - click(findTestObject("Profile/profile add 5")): Object: 'Object Repository/Profile/profile add 5' is clicked on
+
+01-01-2024T20:27:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Profile/profile add 5' is clicked on
+
+01-01-2024T20:27:09 - [TEST_STEP][PASSED] - setText(findTestObject("Profile/profile input name"), "PROFILE 5"): Text 'PROFILE 5' is set on object 'Object Repository/Profile/profile input name'
+
+01-01-2024T20:27:10 - [MESSAGE][PASSED] - Text 'PROFILE 5' is set on object 'Object Repository/Profile/profile input name'
+
+01-01-2024T20:27:10 - [TEST_STEP][PASSED] - click(findTestObject("Profile/profile input name continue")): Object: 'Object Repository/Profile/profile input name continue' is clicked on
+
+01-01-2024T20:27:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Profile/profile input name continue' is clicked on
+
+01-01-2024T20:27:11 - [TEST_STEP][PASSED] - click(findTestObject("Profile/profile done")): Object: 'Object Repository/Profile/profile done' is clicked on
+
+01-01-2024T20:27:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Profile/profile done' is clicked on
+
+01-01-2024T20:27:14 - [TEST_STEP][PASSED] - navigateToUrl("https://www.netflix.com/YourAccount"): Navigate to 'https://www.netflix.com/YourAccount' successfully
+
+01-01-2024T20:27:15 - [MESSAGE][PASSED] - Navigate to 'https://www.netflix.com/YourAccount' successfully
+
+01-01-2024T20:27:15 - [TEST_STEP][PASSED] - click(findTestObject("Pin/pin expand button 1")): Object: 'Object Repository/Pin/pin expand button 1' is clicked on
+
+01-01-2024T20:27:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Pin/pin expand button 1' is clicked on
+
+01-01-2024T20:27:16 - [TEST_STEP][PASSED] - click(findTestObject("Pin/pin change 1")): Object: 'Object Repository/Pin/pin change 1' is clicked on
+
+01-01-2024T20:27:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Pin/pin change 1' is clicked on
+
+01-01-2024T20:27:17 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Pin/pin input password"), "tcoL0gTvL8A="): Text ****** has been set on object 'Object Repository/Pin/pin input password'
+
+01-01-2024T20:27:20 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Pin/pin input password'
+
+01-01-2024T20:27:20 - [TEST_STEP][PASSED] - click(findTestObject("Pin/pin input password continue")): Object: 'Object Repository/Pin/pin input password continue' is clicked on
+
+01-01-2024T20:27:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Pin/pin input password continue' is clicked on
+
+01-01-2024T20:27:21 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Pin/pin input A"), 2, CONTINUE_ON_FAILURE)): null
+
+01-01-2024T20:27:22 - [MESSAGE][PASSED] - Object 'Object Repository/Pin/pin input A' is present
+
+01-01-2024T20:27:22 - [TEST_STEP][PASSED] - click(findTestObject("Pin/pin checkbox")): Object: 'Object Repository/Pin/pin checkbox' is clicked on
+
+01-01-2024T20:27:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Pin/pin checkbox' is clicked on
+
+01-01-2024T20:27:22 - [TEST_STEP][PASSED] - click(findTestObject("Pin/pin checkbox")): Object: 'Object Repository/Pin/pin checkbox' is clicked on
+
+01-01-2024T20:27:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Pin/pin checkbox' is clicked on
+
+01-01-2024T20:27:22 - [TEST_STEP][PASSED] - clearText(findTestObject("Pin/pin input A")): Text of object 'Object Repository/Pin/pin input A' is cleared
+
+01-01-2024T20:27:23 - [MESSAGE][PASSED] - Text of object 'Object Repository/Pin/pin input A' is cleared
+
+01-01-2024T20:27:23 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+01-01-2024T20:27:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+01-01-2024T20:27:25 - [TEST_STEP][PASSED] - setText(findTestObject("Pin/pin input A"), "2"): Text '2' is set on object 'Object Repository/Pin/pin input A'
+
+01-01-2024T20:27:26 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/Pin/pin input A'
+
+01-01-2024T20:27:26 - [TEST_STEP][PASSED] - clearText(findTestObject("Pin/pin input B")): Text of object 'Object Repository/Pin/pin input B' is cleared
+
+01-01-2024T20:27:26 - [MESSAGE][PASSED] - Text of object 'Object Repository/Pin/pin input B' is cleared
+
+01-01-2024T20:27:26 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+01-01-2024T20:27:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+01-01-2024T20:27:28 - [TEST_STEP][PASSED] - setText(findTestObject("Pin/pin input B"), "2"): Text '2' is set on object 'Object Repository/Pin/pin input B'
+
+01-01-2024T20:27:29 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/Pin/pin input B'
+
+01-01-2024T20:27:29 - [TEST_STEP][PASSED] - clearText(findTestObject("Pin/pin input C")): Text of object 'Object Repository/Pin/pin input C' is cleared
+
+01-01-2024T20:27:29 - [MESSAGE][PASSED] - Text of object 'Object Repository/Pin/pin input C' is cleared
+
+01-01-2024T20:27:29 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+01-01-2024T20:27:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+01-01-2024T20:27:31 - [TEST_STEP][PASSED] - setText(findTestObject("Pin/pin input C"), "2"): Text '2' is set on object 'Object Repository/Pin/pin input C'
+
+01-01-2024T20:27:32 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/Pin/pin input C'
+
+01-01-2024T20:27:32 - [TEST_STEP][PASSED] - clearText(findTestObject("Pin/pin input D")): Text of object 'Object Repository/Pin/pin input D' is cleared
+
+01-01-2024T20:27:33 - [MESSAGE][PASSED] - Text of object 'Object Repository/Pin/pin input D' is cleared
+
+01-01-2024T20:27:33 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+01-01-2024T20:27:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+01-01-2024T20:27:35 - [TEST_STEP][PASSED] - setText(findTestObject("Pin/pin input D"), "2"): Text '2' is set on object 'Object Repository/Pin/pin input D'
+
+01-01-2024T20:27:36 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/Pin/pin input D'
+
+01-01-2024T20:27:36 - [TEST_STEP][PASSED] - click(findTestObject("Pin/pin input save 1")): Object: 'Object Repository/Pin/pin input save 1' is clicked on
+
+01-01-2024T20:27:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Pin/pin input save 1' is clicked on
+
+01-01-2024T20:27:36 - [TEST_STEP][PASSED] - click(findTestObject("Pin/pin expand button 2")): Object: 'Object Repository/Pin/pin expand button 2' is clicked on
+
+01-01-2024T20:27:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Pin/pin expand button 2' is clicked on
+
+01-01-2024T20:27:38 - [TEST_STEP][PASSED] - click(findTestObject("Pin/pin change 2")): Object: 'Object Repository/Pin/pin change 2' is clicked on
+
+01-01-2024T20:27:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Pin/pin change 2' is clicked on
+
+01-01-2024T20:27:40 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Pin/pin input password"), "tcoL0gTvL8A="): Text ****** has been set on object 'Object Repository/Pin/pin input password'
+
+01-01-2024T20:27:42 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Pin/pin input password'
+
+01-01-2024T20:27:42 - [TEST_STEP][PASSED] - click(findTestObject("Pin/pin input password continue")): Object: 'Object Repository/Pin/pin input password continue' is clicked on
+
+01-01-2024T20:27:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Pin/pin input password continue' is clicked on
+
+01-01-2024T20:27:42 - [TEST_STEP][PASSED] - click(findTestObject("Pin/pin checkbox")): Object: 'Object Repository/Pin/pin checkbox' is clicked on
+
+01-01-2024T20:27:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Pin/pin checkbox' is clicked on
+
+01-01-2024T20:27:43 - [TEST_STEP][PASSED] - setText(findTestObject("Pin/pin input A"), "1"): Text '1' is set on object 'Object Repository/Pin/pin input A'
+
+01-01-2024T20:27:44 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Pin/pin input A'
+
+01-01-2024T20:27:44 - [TEST_STEP][PASSED] - setText(findTestObject("Pin/pin input B"), "1"): Text '1' is set on object 'Object Repository/Pin/pin input B'
+
+01-01-2024T20:27:44 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Pin/pin input B'
+
+01-01-2024T20:27:44 - [TEST_STEP][PASSED] - setText(findTestObject("Pin/pin input C"), "1"): Text '1' is set on object 'Object Repository/Pin/pin input C'
+
+01-01-2024T20:27:45 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Pin/pin input C'
+
+01-01-2024T20:27:45 - [TEST_STEP][PASSED] - setText(findTestObject("Pin/pin input D"), "2"): Text '2' is set on object 'Object Repository/Pin/pin input D'
+
+01-01-2024T20:27:46 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/Pin/pin input D'
+
+01-01-2024T20:27:46 - [TEST_STEP][PASSED] - click(findTestObject("Pin/pin input save 2")): Object: 'Object Repository/Pin/pin input save 2' is clicked on
+
+01-01-2024T20:27:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Pin/pin input save 2' is clicked on
+
+01-01-2024T20:27:47 - [TEST_STEP][PASSED] - click(findTestObject("Pin/pin expand button 3")): Object: 'Object Repository/Pin/pin expand button 3' is clicked on
+
+01-01-2024T20:27:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Pin/pin expand button 3' is clicked on
+
+01-01-2024T20:27:49 - [TEST_STEP][PASSED] - click(findTestObject("Pin/pin change 3")): Object: 'Object Repository/Pin/pin change 3' is clicked on
+
+01-01-2024T20:27:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Pin/pin change 3' is clicked on
+
+01-01-2024T20:27:50 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Pin/pin input password"), "tcoL0gTvL8A="): Text ****** has been set on object 'Object Repository/Pin/pin input password'
+
+01-01-2024T20:27:51 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Pin/pin input password'
+
+01-01-2024T20:27:51 - [TEST_STEP][PASSED] - click(findTestObject("Pin/pin input password continue")): Object: 'Object Repository/Pin/pin input password continue' is clicked on
+
+01-01-2024T20:27:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Pin/pin input password continue' is clicked on
+
+01-01-2024T20:27:51 - [TEST_STEP][PASSED] - click(findTestObject("Pin/pin checkbox")): Object: 'Object Repository/Pin/pin checkbox' is clicked on
+
+01-01-2024T20:27:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Pin/pin checkbox' is clicked on
+
+01-01-2024T20:27:52 - [TEST_STEP][PASSED] - setText(findTestObject("Pin/pin input A"), "1"): Text '1' is set on object 'Object Repository/Pin/pin input A'
+
+01-01-2024T20:27:53 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Pin/pin input A'
+
+01-01-2024T20:27:53 - [TEST_STEP][PASSED] - setText(findTestObject("Pin/pin input B"), "1"): Text '1' is set on object 'Object Repository/Pin/pin input B'
+
+01-01-2024T20:27:54 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Pin/pin input B'
+
+01-01-2024T20:27:54 - [TEST_STEP][PASSED] - setText(findTestObject("Pin/pin input C"), "1"): Text '1' is set on object 'Object Repository/Pin/pin input C'
+
+01-01-2024T20:27:54 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Pin/pin input C'
+
+01-01-2024T20:27:54 - [TEST_STEP][PASSED] - setText(findTestObject("Pin/pin input D"), "3"): Text '3' is set on object 'Object Repository/Pin/pin input D'
+
+01-01-2024T20:27:56 - [MESSAGE][PASSED] - Text '3' is set on object 'Object Repository/Pin/pin input D'
+
+01-01-2024T20:27:56 - [TEST_STEP][PASSED] - click(findTestObject("Pin/pin input save 3")): Object: 'Object Repository/Pin/pin input save 3' is clicked on
+
+01-01-2024T20:27:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Pin/pin input save 3' is clicked on
+
+01-01-2024T20:27:56 - [TEST_STEP][PASSED] - click(findTestObject("Pin/pin expand button 4")): Object: 'Object Repository/Pin/pin expand button 4' is clicked on
+
+01-01-2024T20:27:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Pin/pin expand button 4' is clicked on
+
+01-01-2024T20:27:58 - [TEST_STEP][PASSED] - click(findTestObject("Pin/pin change 4")): Object: 'Object Repository/Pin/pin change 4' is clicked on
+
+01-01-2024T20:27:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Pin/pin change 4' is clicked on
+
+01-01-2024T20:27:59 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Pin/pin input password"), "tcoL0gTvL8A="): Text ****** has been set on object 'Object Repository/Pin/pin input password'
+
+01-01-2024T20:28:00 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Pin/pin input password'
+
+01-01-2024T20:28:00 - [TEST_STEP][PASSED] - click(findTestObject("Pin/pin input password continue")): Object: 'Object Repository/Pin/pin input password continue' is clicked on
+
+01-01-2024T20:28:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Pin/pin input password continue' is clicked on
+
+01-01-2024T20:28:00 - [TEST_STEP][PASSED] - click(findTestObject("Pin/pin checkbox")): Object: 'Object Repository/Pin/pin checkbox' is clicked on
+
+01-01-2024T20:28:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Pin/pin checkbox' is clicked on
+
+01-01-2024T20:28:01 - [TEST_STEP][PASSED] - setText(findTestObject("Pin/pin input A"), "1"): Text '1' is set on object 'Object Repository/Pin/pin input A'
+
+01-01-2024T20:28:02 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Pin/pin input A'
+
+01-01-2024T20:28:02 - [TEST_STEP][PASSED] - setText(findTestObject("Pin/pin input B"), "1"): Text '1' is set on object 'Object Repository/Pin/pin input B'
+
+01-01-2024T20:28:03 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Pin/pin input B'
+
+01-01-2024T20:28:03 - [TEST_STEP][PASSED] - setText(findTestObject("Pin/pin input C"), "1"): Text '1' is set on object 'Object Repository/Pin/pin input C'
+
+01-01-2024T20:28:04 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Pin/pin input C'
+
+01-01-2024T20:28:04 - [TEST_STEP][PASSED] - setText(findTestObject("Pin/pin input D"), "4"): Text '4' is set on object 'Object Repository/Pin/pin input D'
+
+01-01-2024T20:28:05 - [MESSAGE][PASSED] - Text '4' is set on object 'Object Repository/Pin/pin input D'
+
+01-01-2024T20:28:05 - [TEST_STEP][PASSED] - click(findTestObject("Pin/pin input save 4")): Object: 'Object Repository/Pin/pin input save 4' is clicked on
+
+01-01-2024T20:28:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Pin/pin input save 4' is clicked on
+
+01-01-2024T20:28:05 - [TEST_STEP][PASSED] - click(findTestObject("Pin/pin expand button 5")): Object: 'Object Repository/Pin/pin expand button 5' is clicked on
+
+01-01-2024T20:28:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Pin/pin expand button 5' is clicked on
+
+01-01-2024T20:28:07 - [TEST_STEP][PASSED] - click(findTestObject("Pin/pin change 5")): Object: 'Object Repository/Pin/pin change 5' is clicked on
+
+01-01-2024T20:28:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Pin/pin change 5' is clicked on
+
+01-01-2024T20:28:08 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Pin/pin input password"), "tcoL0gTvL8A="): Text ****** has been set on object 'Object Repository/Pin/pin input password'
+
+01-01-2024T20:28:09 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Pin/pin input password'
+
+01-01-2024T20:28:09 - [TEST_STEP][PASSED] - click(findTestObject("Pin/pin input password continue")): Object: 'Object Repository/Pin/pin input password continue' is clicked on
+
+01-01-2024T20:28:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Pin/pin input password continue' is clicked on
+
+01-01-2024T20:28:09 - [TEST_STEP][PASSED] - click(findTestObject("Pin/pin checkbox")): Object: 'Object Repository/Pin/pin checkbox' is clicked on
+
+01-01-2024T20:28:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Pin/pin checkbox' is clicked on
+
+01-01-2024T20:28:10 - [TEST_STEP][PASSED] - setText(findTestObject("Pin/pin input A"), "1"): Text '1' is set on object 'Object Repository/Pin/pin input A'
+
+01-01-2024T20:28:11 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Pin/pin input A'
+
+01-01-2024T20:28:11 - [TEST_STEP][PASSED] - setText(findTestObject("Pin/pin input B"), "1"): Text '1' is set on object 'Object Repository/Pin/pin input B'
+
+01-01-2024T20:28:12 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Pin/pin input B'
+
+01-01-2024T20:28:12 - [TEST_STEP][PASSED] - setText(findTestObject("Pin/pin input C"), "1"): Text '1' is set on object 'Object Repository/Pin/pin input C'
+
+01-01-2024T20:28:13 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Pin/pin input C'
+
+01-01-2024T20:28:13 - [TEST_STEP][PASSED] - setText(findTestObject("Pin/pin input D"), "5"): Text '5' is set on object 'Object Repository/Pin/pin input D'
+
+01-01-2024T20:28:14 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Pin/pin input D'
+
+01-01-2024T20:28:14 - [TEST_STEP][PASSED] - click(findTestObject("Pin/pin input save 5")): Object: 'Object Repository/Pin/pin input save 5' is clicked on
+
+01-01-2024T20:28:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Pin/pin input save 5' is clicked on
+
+01-01-2024T20:28:14 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+01-01-2024T20:28:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+01-01-2024T20:28:16 - [TEST_STEP][PASSED] - navigateToUrl("https://www.netflix.com/id/logout"): Navigate to 'https://www.netflix.com/id/logout' successfully
+
+01-01-2024T20:28:17 - [MESSAGE][PASSED] - Navigate to 'https://www.netflix.com/id/logout' successfully
+
+01-01-2024T20:28:17 - [TEST_STEP][PASSED] - click(findTestObject("sign out")): Object: 'Object Repository/sign out' is clicked on
+
+01-01-2024T20:28:19 - [MESSAGE][PASSED] - Object: 'Object Repository/sign out' is clicked on
+
+01-01-2024T20:28:19 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+01-01-2024T20:28:21 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[01-01-2024T20:26:28 - [TEST_SUITE][PASSED] - Reset: Test Cases/Profile]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

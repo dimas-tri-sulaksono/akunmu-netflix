@@ -1,0 +1,201 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Full Reset v2.0,Chrome 120.0.0.0,,,03-01-2024 23:18:48,03-01-2024 23:29:45,10m - 56.811s,FAILED
+,,,,,,,
+Test Cases/TC Full Reset v2.0,Chrome 120.0.0.0,,,03-01-2024 23:18:48,03-01-2024 23:27:18,8m - 30.100s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,03-01-2024 23:18:49,03-01-2024 23:18:52,2.713s,PASSED
+"navigateToUrl(""https://www.netflix.com/clearcookies"")",Chrome 120.0.0.0,,,03-01-2024 23:18:52,03-01-2024 23:18:53,1.386s,PASSED
+"navigateToUrl(""https://www.netflix.com/id/login"")",Chrome 120.0.0.0,,,03-01-2024 23:18:53,03-01-2024 23:18:54,0.559s,PASSED
+"click(findTestObject(""Object Repository/Login/1 email""))",Chrome 120.0.0.0,,,03-01-2024 23:18:54,03-01-2024 23:19:02,8.210s,PASSED
+"setText(findTestObject(""Object Repository/Login/2 user id""), email)",Chrome 120.0.0.0,,,03-01-2024 23:19:02,03-01-2024 23:19:03,0.914s,PASSED
+"setText(findTestObject(""Object Repository/Login/3 password""), password)",Chrome 120.0.0.0,,,03-01-2024 23:19:03,03-01-2024 23:19:04,0.749s,PASSED
+"click(findTestObject(""Object Repository/Login/4 sign in""))",Chrome 120.0.0.0,,,03-01-2024 23:19:04,03-01-2024 23:19:04,0.416s,PASSED
+delay(10),Chrome 120.0.0.0,,,03-01-2024 23:19:04,03-01-2024 23:19:14,10.068s,PASSED
+"navigateToUrl(""https://www.netflix.com/profiles/manage"")",Chrome 120.0.0.0,,,03-01-2024 23:19:14,03-01-2024 23:19:16,1.634s,PASSED
+"click(findTestObject(""Profile/profile yang ingin dihapus 2""), STOP_ON_FAILURE)",Chrome 120.0.0.0,,,03-01-2024 23:19:16,03-01-2024 23:19:17,0.816s,PASSED
+"click(findTestObject(""Profile/profile delete""), OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:19:17,03-01-2024 23:19:18,1.420s,PASSED
+"click(findTestObject(""Profile/profile delete confirm""), OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:19:18,03-01-2024 23:19:19,0.493s,PASSED
+"click(findTestObject(""Profile/GagalHapus/simpan profile""), OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:19:19,03-01-2024 23:19:25,6.476s,PASSED
+"click(findTestObject(""Profile/GagalHapus/batal""), OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:19:25,03-01-2024 23:19:32,6.288s,PASSED
+"click(findTestObject(""Profile/profile yang ingin dihapus 3""), OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:19:32,03-01-2024 23:19:38,6.375s,PASSED
+"click(findTestObject(""Profile/profile delete""), OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:19:38,03-01-2024 23:19:44,6.431s,PASSED
+"click(findTestObject(""Profile/profile delete confirm""), OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:19:44,03-01-2024 23:19:51,6.393s,PASSED
+"click(findTestObject(""Profile/GagalHapus/simpan profile""), OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:19:51,03-01-2024 23:19:57,6.358s,PASSED
+"click(findTestObject(""Profile/GagalHapus/batal""), OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:19:57,03-01-2024 23:20:03,6.334s,PASSED
+"click(findTestObject(""Profile/profile yang ingin dihapus 4""), OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:20:03,03-01-2024 23:20:10,6.302s,PASSED
+"click(findTestObject(""Profile/profile delete""), OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:20:10,03-01-2024 23:20:16,6.281s,PASSED
+"click(findTestObject(""Profile/profile delete confirm""), OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:20:16,03-01-2024 23:20:22,6.327s,PASSED
+"click(findTestObject(""Profile/GagalHapus/simpan profile""), OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:20:22,03-01-2024 23:20:29,6.255s,PASSED
+"click(findTestObject(""Profile/GagalHapus/batal""), OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:20:29,03-01-2024 23:20:35,6.320s,PASSED
+"click(findTestObject(""Profile/profile yang ingin dihapus 5""), OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:20:35,03-01-2024 23:20:41,6.340s,PASSED
+"click(findTestObject(""Profile/profile delete""), OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:20:41,03-01-2024 23:20:48,6.292s,PASSED
+"click(findTestObject(""Profile/profile delete confirm""), OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:20:48,03-01-2024 23:20:54,6.366s,PASSED
+"click(findTestObject(""Profile/GagalHapus/simpan profile""), OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:20:54,03-01-2024 23:21:00,6.360s,PASSED
+"click(findTestObject(""Profile/GagalHapus/batal""), OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:21:00,03-01-2024 23:21:07,6.324s,PASSED
+"navigateToUrl(""https://www.netflix.com/profiles/manage"", OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:21:07,03-01-2024 23:21:08,1.763s,PASSED
+"click(findTestObject(""Profile/profile edit name 1""), OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:21:08,03-01-2024 23:21:09,0.702s,PASSED
+"clearText(findTestObject(""Profile/profile edit name text""), OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:21:09,03-01-2024 23:21:10,1.172s,PASSED
+"setText(findTestObject(""Profile/profile edit name text""), ""PROFILE 1"", OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:21:10,03-01-2024 23:21:11,0.810s,PASSED
+"click(findTestObject(""Profile/language change""), OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:21:11,03-01-2024 23:21:12,0.502s,PASSED
+"click(findTestObject(""Profile/language indonesia""), OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:21:12,03-01-2024 23:21:12,0.466s,PASSED
+"click(findTestObject(""Profile/profile edit name save""), OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:21:12,03-01-2024 23:21:13,0.488s,PASSED
+"click(findTestObject(""Profile/profile edit name 2""), OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:21:13,03-01-2024 23:21:19,6.367s,PASSED
+"clearText(findTestObject(""Profile/profile edit name text""), OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:21:19,03-01-2024 23:21:25,6.276s,PASSED
+"setText(findTestObject(""Profile/profile edit name text""), ""x2"", OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:21:25,03-01-2024 23:21:31,6.285s,PASSED
+"click(findTestObject(""Profile/language change""), OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:21:31,03-01-2024 23:21:38,6.357s,PASSED
+"click(findTestObject(""Profile/language indonesia""), OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:21:38,03-01-2024 23:21:44,6.313s,PASSED
+"click(findTestObject(""Profile/profile edit name save""), OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:21:44,03-01-2024 23:21:50,6.298s,PASSED
+"click(findTestObject(""Profile/profile edit name 3""), OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:21:50,03-01-2024 23:21:57,6.304s,PASSED
+"clearText(findTestObject(""Profile/profile edit name text""), OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:21:57,03-01-2024 23:22:03,6.351s,PASSED
+"setText(findTestObject(""Profile/profile edit name text""), ""x3"", OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:22:03,03-01-2024 23:22:09,6.400s,PASSED
+"click(findTestObject(""Profile/language change""), OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:22:09,03-01-2024 23:22:16,6.243s,PASSED
+"click(findTestObject(""Profile/language indonesia""), OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:22:16,03-01-2024 23:22:22,6.328s,PASSED
+"click(findTestObject(""Profile/profile edit name save""), OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:22:22,03-01-2024 23:22:28,6.301s,PASSED
+"click(findTestObject(""Profile/profile edit name 4""), OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:22:28,03-01-2024 23:22:35,6.296s,PASSED
+"clearText(findTestObject(""Profile/profile edit name text""), OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:22:35,03-01-2024 23:22:41,6.308s,PASSED
+"setText(findTestObject(""Profile/profile edit name text""), ""x4"", OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:22:41,03-01-2024 23:22:47,6.394s,PASSED
+"click(findTestObject(""Profile/language change""), OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:22:47,03-01-2024 23:22:54,6.491s,PASSED
+"click(findTestObject(""Profile/language indonesia""), OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:22:54,03-01-2024 23:23:00,6.306s,PASSED
+"click(findTestObject(""Profile/profile edit name save""), OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:23:00,03-01-2024 23:23:06,6.182s,PASSED
+"click(findTestObject(""Profile/profile edit name 5""), OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:23:06,03-01-2024 23:23:13,6.387s,PASSED
+"clearText(findTestObject(""Profile/profile edit name text""), OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:23:13,03-01-2024 23:23:19,6.345s,PASSED
+"setText(findTestObject(""Profile/profile edit name text""), ""x5"", OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:23:19,03-01-2024 23:23:25,6.364s,PASSED
+"click(findTestObject(""Profile/language change""), OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:23:25,03-01-2024 23:23:32,6.190s,PASSED
+"click(findTestObject(""Profile/language indonesia""), OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:23:32,03-01-2024 23:23:38,6.265s,PASSED
+"click(findTestObject(""Profile/profile edit name save""), OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:23:38,03-01-2024 23:23:44,6.349s,PASSED
+"click(findTestObject(""Profile/profile add 2""), OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:23:44,03-01-2024 23:23:45,0.523s,PASSED
+"setText(findTestObject(""Profile/profile input name""), ""PROFILE 2"", OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:23:45,03-01-2024 23:23:47,1.831s,PASSED
+"click(findTestObject(""Profile/profile input name continue""), OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:23:47,03-01-2024 23:23:47,0.359s,PASSED
+"click(findTestObject(""Profile/profile add 3""), OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:23:47,03-01-2024 23:23:48,1.514s,PASSED
+"setText(findTestObject(""Profile/profile input name""), ""PROFILE 3"", OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:23:48,03-01-2024 23:23:50,1.849s,PASSED
+"click(findTestObject(""Profile/profile input name continue""), OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:23:50,03-01-2024 23:23:51,0.339s,PASSED
+"click(findTestObject(""Profile/profile add 4""), OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:23:51,03-01-2024 23:23:52,1.402s,PASSED
+"setText(findTestObject(""Profile/profile input name""), ""PROFILE 4"", OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:23:52,03-01-2024 23:23:54,1.640s,PASSED
+"click(findTestObject(""Profile/profile input name continue""), OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:23:54,03-01-2024 23:23:54,0.350s,PASSED
+"click(findTestObject(""Profile/profile add 5""), OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:23:54,03-01-2024 23:23:55,1.337s,PASSED
+"setText(findTestObject(""Profile/profile input name""), ""PROFILE 5"", OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:23:55,03-01-2024 23:23:57,1.655s,PASSED
+"click(findTestObject(""Profile/profile input name continue""), OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:23:57,03-01-2024 23:23:57,0.324s,PASSED
+"click(findTestObject(""Profile/profile edit name 2""), OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:23:57,03-01-2024 23:23:59,1.921s,PASSED
+"clearText(findTestObject(""Profile/profile edit name text""), OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:23:59,03-01-2024 23:24:03,3.699s,PASSED
+"setText(findTestObject(""Profile/profile edit name text""), ""PROFILE 2"", OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:24:03,03-01-2024 23:24:04,0.903s,PASSED
+"click(findTestObject(""Profile/profile edit name save""), OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:24:04,03-01-2024 23:24:04,0.538s,PASSED
+"click(findTestObject(""Profile/profile edit name 3""), OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:24:04,03-01-2024 23:24:06,1.136s,PASSED
+"clearText(findTestObject(""Profile/profile edit name text""), OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:24:06,03-01-2024 23:24:07,1.164s,PASSED
+"setText(findTestObject(""Profile/profile edit name text""), ""PROFILE 3"", OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:24:07,03-01-2024 23:24:08,0.813s,PASSED
+"click(findTestObject(""Profile/profile edit name save""), OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:24:08,03-01-2024 23:24:08,0.583s,PASSED
+"click(findTestObject(""Profile/profile edit name 4""), OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:24:08,03-01-2024 23:24:09,1.140s,PASSED
+"clearText(findTestObject(""Profile/profile edit name text""), OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:24:09,03-01-2024 23:24:10,1.193s,PASSED
+"setText(findTestObject(""Profile/profile edit name text""), ""PROFILE 4"", OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:24:10,03-01-2024 23:24:11,0.794s,PASSED
+"click(findTestObject(""Profile/profile edit name save""), OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:24:11,03-01-2024 23:24:12,0.480s,PASSED
+"click(findTestObject(""Profile/profile edit name 5""), OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:24:12,03-01-2024 23:24:13,1.161s,PASSED
+"clearText(findTestObject(""Profile/profile edit name text""), OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:24:13,03-01-2024 23:24:14,1.160s,PASSED
+"setText(findTestObject(""Profile/profile edit name text""), ""PROFILE 5"", OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:24:14,03-01-2024 23:24:15,0.820s,PASSED
+"click(findTestObject(""Profile/profile edit name save""), OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:24:15,03-01-2024 23:24:15,0.491s,PASSED
+"click(findTestObject(""Profile/profile done""), OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:24:15,03-01-2024 23:24:21,5.313s,PASSED
+"navigateToUrl(""https://www.netflix.com/YourAccount"")",Chrome 120.0.0.0,,,03-01-2024 23:24:21,03-01-2024 23:24:29,8.047s,PASSED
+"waitForElementPresent(findTestObject(""Pin/pin expand button 1""), 5)",Chrome 120.0.0.0,,,03-01-2024 23:24:29,03-01-2024 23:24:30,1.009s,PASSED
+"click(findTestObject(""Pin/pin expand button 1""))",Chrome 120.0.0.0,,,03-01-2024 23:24:30,03-01-2024 23:24:30,0.419s,PASSED
+"click(findTestObject(""Pin/pin change 1""))",Chrome 120.0.0.0,,,03-01-2024 23:24:30,03-01-2024 23:24:37,6.375s,PASSED
+"setText(findTestObject(""Pin/pin input password""), password)",Chrome 120.0.0.0,,,03-01-2024 23:24:37,03-01-2024 23:24:39,2.161s,PASSED
+"click(findTestObject(""Pin/pin input password continue""))",Chrome 120.0.0.0,,,03-01-2024 23:24:39,03-01-2024 23:24:39,0.500s,PASSED
+"if (verifyElementNotPresent(findTestObject(""Pin/pin input A""), 2, OPTIONAL))",Chrome 120.0.0.0,,,03-01-2024 23:24:39,03-01-2024 23:24:44,5.261s,PASSED
+"click(findTestObject(""Pin/pin expand button 2""))",Chrome 120.0.0.0,,,03-01-2024 23:24:44,03-01-2024 23:24:48,3.078s,PASSED
+"click(findTestObject(""Pin/pin change 2""))",Chrome 120.0.0.0,,,03-01-2024 23:24:48,03-01-2024 23:24:50,2.007s,PASSED
+"setText(findTestObject(""Pin/pin input password""), password)",Chrome 120.0.0.0,,,03-01-2024 23:24:50,03-01-2024 23:24:51,1.235s,PASSED
+"click(findTestObject(""Pin/pin input password continue""))",Chrome 120.0.0.0,,,03-01-2024 23:24:51,03-01-2024 23:24:51,0.494s,PASSED
+"if (verifyElementNotPresent(findTestObject(""Pin/pin input A""), 2, OPTIONAL))",Chrome 120.0.0.0,,,03-01-2024 23:24:51,03-01-2024 23:24:57,5.364s,PASSED
+"click(findTestObject(""Pin/pin expand button 3""))",Chrome 120.0.0.0,,,03-01-2024 23:24:57,03-01-2024 23:25:03,6.518s,PASSED
+"click(findTestObject(""Pin/pin change 3""))",Chrome 120.0.0.0,,,03-01-2024 23:25:03,03-01-2024 23:25:06,2.503s,PASSED
+"setText(findTestObject(""Pin/pin input password""), password)",Chrome 120.0.0.0,,,03-01-2024 23:25:06,03-01-2024 23:25:07,1.001s,PASSED
+"click(findTestObject(""Pin/pin input password continue""))",Chrome 120.0.0.0,,,03-01-2024 23:25:07,03-01-2024 23:25:07,0.473s,PASSED
+"if (verifyElementNotPresent(findTestObject(""Pin/pin input A""), 2, OPTIONAL))",Chrome 120.0.0.0,,,03-01-2024 23:25:07,03-01-2024 23:25:12,5.269s,PASSED
+"click(findTestObject(""Pin/pin expand button 4""))",Chrome 120.0.0.0,,,03-01-2024 23:25:12,03-01-2024 23:25:17,4.788s,PASSED
+"click(findTestObject(""Pin/pin change 4""))",Chrome 120.0.0.0,,,03-01-2024 23:25:17,03-01-2024 23:25:19,1.866s,PASSED
+"setText(findTestObject(""Pin/pin input password""), password)",Chrome 120.0.0.0,,,03-01-2024 23:25:19,03-01-2024 23:25:20,1.004s,PASSED
+"click(findTestObject(""Pin/pin input password continue""))",Chrome 120.0.0.0,,,03-01-2024 23:25:20,03-01-2024 23:25:21,0.500s,PASSED
+"if (verifyElementNotPresent(findTestObject(""Pin/pin input A""), 2, OPTIONAL))",Chrome 120.0.0.0,,,03-01-2024 23:25:21,03-01-2024 23:25:25,4.807s,PASSED
+"click(findTestObject(""Pin/pin expand button 5""))",Chrome 120.0.0.0,,,03-01-2024 23:25:25,03-01-2024 23:25:29,3.625s,PASSED
+"click(findTestObject(""Pin/pin change 5""))",Chrome 120.0.0.0,,,03-01-2024 23:25:29,03-01-2024 23:25:31,2.039s,PASSED
+"setText(findTestObject(""Pin/pin input password""), password)",Chrome 120.0.0.0,,,03-01-2024 23:25:31,03-01-2024 23:25:32,0.958s,PASSED
+"click(findTestObject(""Pin/pin input password continue""))",Chrome 120.0.0.0,,,03-01-2024 23:25:32,03-01-2024 23:25:32,0.473s,PASSED
+"if (verifyElementNotPresent(findTestObject(""Pin/pin input A""), 2, OPTIONAL))",Chrome 120.0.0.0,,,03-01-2024 23:25:32,03-01-2024 23:25:37,4.990s,PASSED
+delay(2),Chrome 120.0.0.0,,,03-01-2024 23:25:37,03-01-2024 23:25:39,2.004s,PASSED
+"navigateToUrl(""https://www.netflix.com/YourAccount"")",Chrome 120.0.0.0,,,03-01-2024 23:25:39,03-01-2024 23:25:41,1.965s,PASSED
+"click(findTestObject(""Pin/pin expand button 1""))",Chrome 120.0.0.0,,,03-01-2024 23:25:41,03-01-2024 23:25:42,0.678s,PASSED
+"click(findTestObject(""StreamActivity/lihat 1""))",Chrome 120.0.0.0,,,03-01-2024 23:25:42,03-01-2024 23:25:46,3.998s,PASSED
+"click(findTestObject(""StreamActivity/sembunyikan""), OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:25:46,03-01-2024 23:25:53,6.572s,PASSED
+"click(findTestObject(""StreamActivity/sembunyikan ya""), OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:25:53,03-01-2024 23:25:59,6.425s,PASSED
+"navigateToUrl(""https://www.netflix.com/YourAccount"")",Chrome 120.0.0.0,,,03-01-2024 23:25:59,03-01-2024 23:26:01,1.676s,PASSED
+"click(findTestObject(""Pin/pin expand button 2""))",Chrome 120.0.0.0,,,03-01-2024 23:26:01,03-01-2024 23:26:02,1.123s,PASSED
+"click(findTestObject(""StreamActivity/lihat 2""))",Chrome 120.0.0.0,,,03-01-2024 23:26:02,03-01-2024 23:26:03,1.534s,PASSED
+"click(findTestObject(""StreamActivity/sembunyikan""), OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:26:03,03-01-2024 23:26:10,6.316s,PASSED
+"click(findTestObject(""StreamActivity/sembunyikan ya""), OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:26:10,03-01-2024 23:26:16,6.288s,PASSED
+"navigateToUrl(""https://www.netflix.com/YourAccount"")",Chrome 120.0.0.0,,,03-01-2024 23:26:16,03-01-2024 23:26:18,2.041s,PASSED
+"click(findTestObject(""Pin/pin expand button 3""))",Chrome 120.0.0.0,,,03-01-2024 23:26:18,03-01-2024 23:26:19,1.056s,PASSED
+"click(findTestObject(""StreamActivity/lihat 3""))",Chrome 120.0.0.0,,,03-01-2024 23:26:19,03-01-2024 23:26:21,1.408s,PASSED
+"click(findTestObject(""StreamActivity/sembunyikan""), OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:26:21,03-01-2024 23:26:27,6.326s,PASSED
+"click(findTestObject(""StreamActivity/sembunyikan ya""), OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:26:27,03-01-2024 23:26:33,6.364s,PASSED
+"navigateToUrl(""https://www.netflix.com/YourAccount"")",Chrome 120.0.0.0,,,03-01-2024 23:26:33,03-01-2024 23:26:35,1.944s,PASSED
+"click(findTestObject(""Pin/pin expand button 4""))",Chrome 120.0.0.0,,,03-01-2024 23:26:35,03-01-2024 23:26:36,1.010s,PASSED
+"click(findTestObject(""StreamActivity/lihat 4""))",Chrome 120.0.0.0,,,03-01-2024 23:26:36,03-01-2024 23:26:38,1.501s,PASSED
+"click(findTestObject(""StreamActivity/sembunyikan""), OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:26:38,03-01-2024 23:26:44,6.382s,PASSED
+"click(findTestObject(""StreamActivity/sembunyikan ya""), OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:26:44,03-01-2024 23:26:50,6.299s,PASSED
+"navigateToUrl(""https://www.netflix.com/YourAccount"")",Chrome 120.0.0.0,,,03-01-2024 23:26:50,03-01-2024 23:26:52,1.465s,PASSED
+"click(findTestObject(""Pin/pin expand button 5""))",Chrome 120.0.0.0,,,03-01-2024 23:26:52,03-01-2024 23:26:53,1.014s,PASSED
+"click(findTestObject(""StreamActivity/lihat 5""))",Chrome 120.0.0.0,,,03-01-2024 23:26:53,03-01-2024 23:26:55,2.206s,PASSED
+"click(findTestObject(""StreamActivity/sembunyikan""), OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:26:55,03-01-2024 23:27:01,6.387s,PASSED
+"click(findTestObject(""StreamActivity/sembunyikan ya""), OPTIONAL)",Chrome 120.0.0.0,,,03-01-2024 23:27:01,03-01-2024 23:27:08,6.218s,PASSED
+"navigateToUrl(""https://www.netflix.com/YourAccount"")",Chrome 120.0.0.0,,,03-01-2024 23:27:08,03-01-2024 23:27:09,1.506s,PASSED
+"navigateToUrl(""https://www.netflix.com/id/logout"")",Chrome 120.0.0.0,,,03-01-2024 23:27:09,03-01-2024 23:27:13,3.888s,PASSED
+"click(findTestObject(""sign out""))",Chrome 120.0.0.0,,,03-01-2024 23:27:13,03-01-2024 23:27:16,3.275s,PASSED
+delay(2),Chrome 120.0.0.0,,,03-01-2024 23:27:16,03-01-2024 23:27:18,2.002s,PASSED
+,,,,,,,
+Test Cases/TC Full Reset v2.0,Chrome 120.0.0.0,,,03-01-2024 23:27:18,03-01-2024 23:27:55,36.477s,FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,03-01-2024 23:27:18,03-01-2024 23:27:20,1.295s,PASSED
+"navigateToUrl(""https://www.netflix.com/clearcookies"")",Chrome 120.0.0.0,,,03-01-2024 23:27:20,03-01-2024 23:27:26,6.376s,PASSED
+"navigateToUrl(""https://www.netflix.com/id/login"")",Chrome 120.0.0.0,,,03-01-2024 23:27:26,03-01-2024 23:27:32,5.995s,PASSED
+"click(findTestObject(""Object Repository/Login/1 email""))",Chrome 120.0.0.0,,,03-01-2024 23:27:32,03-01-2024 23:27:32,0.362s,PASSED
+"setText(findTestObject(""Object Repository/Login/2 user id""), email)",Chrome 120.0.0.0,,,03-01-2024 23:27:32,03-01-2024 23:27:33,0.735s,PASSED
+"setText(findTestObject(""Object Repository/Login/3 password""), password)",Chrome 120.0.0.0,,,03-01-2024 23:27:33,03-01-2024 23:27:34,0.872s,PASSED
+"click(findTestObject(""Object Repository/Login/4 sign in""))",Chrome 120.0.0.0,,,03-01-2024 23:27:34,03-01-2024 23:27:34,0.357s,PASSED
+delay(10),Chrome 120.0.0.0,,,03-01-2024 23:27:34,03-01-2024 23:27:44,10.010s,PASSED
+"navigateToUrl(""https://www.netflix.com/profiles/manage"")",Chrome 120.0.0.0,,,03-01-2024 23:27:44,03-01-2024 23:27:48,3.880s,PASSED
+"click(findTestObject(""Profile/profile yang ingin dihapus 2""), STOP_ON_FAILURE)",Chrome 120.0.0.0,,,03-01-2024 23:27:48,03-01-2024 23:27:55,6.506s,FAILED
+,,,,,,,
+Test Cases/TC Full Reset v2.0,Chrome 120.0.0.0,,,03-01-2024 23:27:55,03-01-2024 23:28:27,32.216s,FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,03-01-2024 23:27:55,03-01-2024 23:27:56,1.196s,PASSED
+"navigateToUrl(""https://www.netflix.com/clearcookies"")",Chrome 120.0.0.0,,,03-01-2024 23:27:56,03-01-2024 23:27:57,1.331s,PASSED
+"navigateToUrl(""https://www.netflix.com/id/login"")",Chrome 120.0.0.0,,,03-01-2024 23:27:57,03-01-2024 23:28:04,6.948s,PASSED
+"click(findTestObject(""Object Repository/Login/1 email""))",Chrome 120.0.0.0,,,03-01-2024 23:28:04,03-01-2024 23:28:05,0.360s,PASSED
+"setText(findTestObject(""Object Repository/Login/2 user id""), email)",Chrome 120.0.0.0,,,03-01-2024 23:28:05,03-01-2024 23:28:05,0.733s,PASSED
+"setText(findTestObject(""Object Repository/Login/3 password""), password)",Chrome 120.0.0.0,,,03-01-2024 23:28:05,03-01-2024 23:28:06,0.880s,PASSED
+"click(findTestObject(""Object Repository/Login/4 sign in""))",Chrome 120.0.0.0,,,03-01-2024 23:28:06,03-01-2024 23:28:07,0.377s,PASSED
+delay(10),Chrome 120.0.0.0,,,03-01-2024 23:28:07,03-01-2024 23:28:17,10.012s,PASSED
+"navigateToUrl(""https://www.netflix.com/profiles/manage"")",Chrome 120.0.0.0,,,03-01-2024 23:28:17,03-01-2024 23:28:21,3.885s,PASSED
+"click(findTestObject(""Profile/profile yang ingin dihapus 2""), STOP_ON_FAILURE)",Chrome 120.0.0.0,,,03-01-2024 23:28:21,03-01-2024 23:28:27,6.447s,FAILED
+,,,,,,,
+Test Cases/TC Full Reset v2.0,Chrome 120.0.0.0,,,03-01-2024 23:28:27,03-01-2024 23:28:40,12.705s,FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,03-01-2024 23:28:27,03-01-2024 23:28:28,1.071s,PASSED
+"navigateToUrl(""https://www.netflix.com/clearcookies"")",Chrome 120.0.0.0,,,03-01-2024 23:28:28,03-01-2024 23:28:29,1.173s,PASSED
+"navigateToUrl(""https://www.netflix.com/id/login"")",Chrome 120.0.0.0,,,03-01-2024 23:28:29,03-01-2024 23:28:40,10.429s,FAILED
+,,,,,,,
+Test Cases/TC Full Reset v2.0,Chrome 120.0.0.0,,,03-01-2024 23:28:40,03-01-2024 23:28:53,13.403s,FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,03-01-2024 23:28:40,03-01-2024 23:28:41,1.142s,PASSED
+"navigateToUrl(""https://www.netflix.com/clearcookies"")",Chrome 120.0.0.0,,,03-01-2024 23:28:41,03-01-2024 23:28:43,1.765s,PASSED
+"navigateToUrl(""https://www.netflix.com/id/login"")",Chrome 120.0.0.0,,,03-01-2024 23:28:43,03-01-2024 23:28:53,10.461s,FAILED
+,,,,,,,
+Test Cases/TC Full Reset v2.0,Chrome 120.0.0.0,,,03-01-2024 23:28:53,03-01-2024 23:29:07,13.351s,FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,03-01-2024 23:28:53,03-01-2024 23:28:54,1.099s,PASSED
+"navigateToUrl(""https://www.netflix.com/clearcookies"")",Chrome 120.0.0.0,,,03-01-2024 23:28:54,03-01-2024 23:28:56,1.734s,PASSED
+"navigateToUrl(""https://www.netflix.com/id/login"")",Chrome 120.0.0.0,,,03-01-2024 23:28:56,03-01-2024 23:29:07,10.480s,FAILED
+,,,,,,,
+Test Cases/TC Full Reset v2.0,Chrome 120.0.0.0,,,03-01-2024 23:29:07,03-01-2024 23:29:45,37.890s,FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,03-01-2024 23:29:07,03-01-2024 23:29:08,1.119s,PASSED
+"navigateToUrl(""https://www.netflix.com/clearcookies"")",Chrome 120.0.0.0,,,03-01-2024 23:29:08,03-01-2024 23:29:09,1.490s,PASSED
+"navigateToUrl(""https://www.netflix.com/id/login"")",Chrome 120.0.0.0,,,03-01-2024 23:29:09,03-01-2024 23:29:18,8.995s,PASSED
+"click(findTestObject(""Object Repository/Login/1 email""))",Chrome 120.0.0.0,,,03-01-2024 23:29:18,03-01-2024 23:29:19,0.850s,PASSED
+"setText(findTestObject(""Object Repository/Login/2 user id""), email)",Chrome 120.0.0.0,,,03-01-2024 23:29:19,03-01-2024 23:29:20,0.784s,PASSED
+"setText(findTestObject(""Object Repository/Login/3 password""), password)",Chrome 120.0.0.0,,,03-01-2024 23:29:20,03-01-2024 23:29:21,0.910s,PASSED
+"click(findTestObject(""Object Repository/Login/4 sign in""))",Chrome 120.0.0.0,,,03-01-2024 23:29:21,03-01-2024 23:29:21,0.406s,PASSED
+delay(10),Chrome 120.0.0.0,,,03-01-2024 23:29:21,03-01-2024 23:29:31,10.016s,PASSED
+"navigateToUrl(""https://www.netflix.com/profiles/manage"")",Chrome 120.0.0.0,,,03-01-2024 23:29:31,03-01-2024 23:29:38,6.840s,PASSED
+"click(findTestObject(""Profile/profile yang ingin dihapus 2""), STOP_ON_FAILURE)",Chrome 120.0.0.0,,,03-01-2024 23:29:38,03-01-2024 23:29:45,6.413s,FAILED

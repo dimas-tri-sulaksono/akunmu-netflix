@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Reset" time="64.153" tests="1" failures="1" errors="0">
+   <testsuite name="Reset" tests="1" failures="1" errors="0" time="64.153" skipped="0" timestamp="01-01-2024T19:30:32" hostname="abyad - Thinkbook" id="Test Suites/Reset">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\katalon\\Netflix\\Netflix - Create Profile\\Reports\\20240101_193025\\Reset\\20240101_193025"/>
+         <property name="logFiles" value="D:\\katalon\\Netflix\\Netflix - Create Profile\\Reports\\20240101_193025\\Reset\\20240101_193025\\execution0.log"/>
+         <property name="attachments" value="D:\\katalon\\Netflix\\Netflix - Create Profile\\Reports\\20240101_193025\\Reset\\20240101_193025\\1704112296524.png"/>
+         <property name="hostName" value="abyad - Thinkbook"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.18.169"/>
+         <property name="sessionId" value="8a5889426ff7f460311cbd873c2cb116"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Profile" time="63.865" classname="Test Cases/Profile" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Profile FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/pin expand button 2'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)&#xa;	at Profile.run(Profile:132)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1704112225466.run(TempTestSuite1704112225466.groovy:36)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/pin expand button 2' located by '//*[@id=&quot;profile_1&quot;]/div/button' not found&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 20 more&#xa;"/>
+         <system-out><![CDATA[01-01-2024T19:30:32 - [TEST_CASE][FAILED] - Test Cases/Profile: Test Cases/Profile FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/pin expand button 2'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Profile.run(Profile:132)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704112225466.run(TempTestSuite1704112225466.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/pin expand button 2' located by '//*[@id="profile_1"]/div/button' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+
+
+01-01-2024T19:30:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+01-01-2024T19:30:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+01-01-2024T19:30:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+01-01-2024T19:30:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+01-01-2024T19:30:35 - [TEST_STEP][PASSED] - navigateToUrl("https://www.netflix.com/id/login"): Navigate to 'https://www.netflix.com/id/login' successfully
+
+01-01-2024T19:30:38 - [MESSAGE][PASSED] - Navigate to 'https://www.netflix.com/id/login' successfully
+
+01-01-2024T19:30:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1 email")): Object: 'Object Repository/1 email' is clicked on
+
+01-01-2024T19:30:39 - [MESSAGE][PASSED] - Object: 'Object Repository/1 email' is clicked on
+
+01-01-2024T19:30:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/2 user id"), email): Text 'oau@frilsa.com' is set on object 'Object Repository/2 user id'
+
+01-01-2024T19:30:40 - [MESSAGE][PASSED] - Text 'oau@frilsa.com' is set on object 'Object Repository/2 user id'
+
+01-01-2024T19:30:40 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/3 password"), "tcoL0gTvL8A="): Text ****** has been set on object 'Object Repository/3 password'
+
+01-01-2024T19:30:40 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/3 password'
+
+01-01-2024T19:30:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/4 sign in")): Object: 'Object Repository/4 sign in' is clicked on
+
+01-01-2024T19:30:41 - [MESSAGE][PASSED] - Object: 'Object Repository/4 sign in' is clicked on
+
+01-01-2024T19:30:41 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+01-01-2024T19:30:46 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+01-01-2024T19:30:46 - [TEST_STEP][PASSED] - navigateToUrl("https://www.netflix.com/profiles/manage"): Navigate to 'https://www.netflix.com/profiles/manage' successfully
+
+01-01-2024T19:30:50 - [MESSAGE][PASSED] - Navigate to 'https://www.netflix.com/profiles/manage' successfully
+
+01-01-2024T19:30:50 - [TEST_STEP][PASSED] - click(findTestObject("profile yang ingin dihapus"), OPTIONAL): Object: 'Object Repository/profile yang ingin dihapus' is clicked on
+
+01-01-2024T19:30:51 - [MESSAGE][PASSED] - Object: 'Object Repository/profile yang ingin dihapus' is clicked on
+
+01-01-2024T19:30:51 - [TEST_STEP][PASSED] - click(findTestObject("profile delete"), OPTIONAL): Object: 'Object Repository/profile delete' is clicked on
+
+01-01-2024T19:30:52 - [MESSAGE][PASSED] - Object: 'Object Repository/profile delete' is clicked on
+
+01-01-2024T19:30:52 - [TEST_STEP][PASSED] - click(findTestObject("profile delete confirm"), OPTIONAL): Object: 'Object Repository/profile delete confirm' is clicked on
+
+01-01-2024T19:30:52 - [MESSAGE][PASSED] - Object: 'Object Repository/profile delete confirm' is clicked on
+
+01-01-2024T19:30:52 - [TEST_STEP][PASSED] - click(findTestObject("profile yang ingin dihapus"), OPTIONAL): Object: 'Object Repository/profile yang ingin dihapus' is clicked on
+
+01-01-2024T19:30:54 - [MESSAGE][PASSED] - Object: 'Object Repository/profile yang ingin dihapus' is clicked on
+
+01-01-2024T19:30:54 - [TEST_STEP][PASSED] - click(findTestObject("profile delete"), OPTIONAL): Object: 'Object Repository/profile delete' is clicked on
+
+01-01-2024T19:30:55 - [MESSAGE][PASSED] - Object: 'Object Repository/profile delete' is clicked on
+
+01-01-2024T19:30:55 - [TEST_STEP][PASSED] - click(findTestObject("profile delete confirm"), OPTIONAL): Object: 'Object Repository/profile delete confirm' is clicked on
+
+01-01-2024T19:30:55 - [MESSAGE][PASSED] - Object: 'Object Repository/profile delete confirm' is clicked on
+
+01-01-2024T19:30:55 - [TEST_STEP][PASSED] - click(findTestObject("profile yang ingin dihapus"), OPTIONAL): Object: 'Object Repository/profile yang ingin dihapus' is clicked on
+
+01-01-2024T19:30:56 - [MESSAGE][PASSED] - Object: 'Object Repository/profile yang ingin dihapus' is clicked on
+
+01-01-2024T19:30:56 - [TEST_STEP][PASSED] - click(findTestObject("profile delete"), OPTIONAL): Object: 'Object Repository/profile delete' is clicked on
+
+01-01-2024T19:30:57 - [MESSAGE][PASSED] - Object: 'Object Repository/profile delete' is clicked on
+
+01-01-2024T19:30:57 - [TEST_STEP][PASSED] - click(findTestObject("profile delete confirm"), OPTIONAL): Object: 'Object Repository/profile delete confirm' is clicked on
+
+01-01-2024T19:30:58 - [MESSAGE][PASSED] - Object: 'Object Repository/profile delete confirm' is clicked on
+
+01-01-2024T19:30:58 - [TEST_STEP][PASSED] - click(findTestObject("profile yang ingin dihapus"), OPTIONAL): Object: 'Object Repository/profile yang ingin dihapus' is clicked on
+
+01-01-2024T19:30:59 - [MESSAGE][PASSED] - Object: 'Object Repository/profile yang ingin dihapus' is clicked on
+
+01-01-2024T19:30:59 - [TEST_STEP][PASSED] - click(findTestObject("profile delete"), OPTIONAL): Object: 'Object Repository/profile delete' is clicked on
+
+01-01-2024T19:31:00 - [MESSAGE][PASSED] - Object: 'Object Repository/profile delete' is clicked on
+
+01-01-2024T19:31:00 - [TEST_STEP][PASSED] - click(findTestObject("profile delete confirm"), OPTIONAL): Object: 'Object Repository/profile delete confirm' is clicked on
+
+01-01-2024T19:31:01 - [MESSAGE][PASSED] - Object: 'Object Repository/profile delete confirm' is clicked on
+
+01-01-2024T19:31:01 - [TEST_STEP][PASSED] - navigateToUrl("https://www.netflix.com/profiles/manage", OPTIONAL): Navigate to 'https://www.netflix.com/profiles/manage' successfully
+
+01-01-2024T19:31:02 - [MESSAGE][PASSED] - Navigate to 'https://www.netflix.com/profiles/manage' successfully
+
+01-01-2024T19:31:02 - [TEST_STEP][PASSED] - click(findTestObject("profile edit name 1")): Object: 'Object Repository/profile edit name 1' is clicked on
+
+01-01-2024T19:31:03 - [MESSAGE][PASSED] - Object: 'Object Repository/profile edit name 1' is clicked on
+
+01-01-2024T19:31:03 - [TEST_STEP][PASSED] - clearText(findTestObject("profile edit name text")): Text of object 'Object Repository/profile edit name text' is cleared
+
+01-01-2024T19:31:04 - [MESSAGE][PASSED] - Text of object 'Object Repository/profile edit name text' is cleared
+
+01-01-2024T19:31:04 - [TEST_STEP][PASSED] - setText(findTestObject("profile edit name text"), "PROFILE 1"): Text 'PROFILE 1' is set on object 'Object Repository/profile edit name text'
+
+01-01-2024T19:31:05 - [MESSAGE][PASSED] - Text 'PROFILE 1' is set on object 'Object Repository/profile edit name text'
+
+01-01-2024T19:31:05 - [TEST_STEP][PASSED] - click(findTestObject("profile edit name save")): Object: 'Object Repository/profile edit name save' is clicked on
+
+01-01-2024T19:31:05 - [MESSAGE][PASSED] - Object: 'Object Repository/profile edit name save' is clicked on
+
+01-01-2024T19:31:05 - [TEST_STEP][PASSED] - click(findTestObject("profile add 2")): Object: 'Object Repository/profile add 2' is clicked on
+
+01-01-2024T19:31:07 - [MESSAGE][PASSED] - Object: 'Object Repository/profile add 2' is clicked on
+
+01-01-2024T19:31:07 - [TEST_STEP][PASSED] - setText(findTestObject("profile input name"), "PROFILE 2"): Text 'PROFILE 2' is set on object 'Object Repository/profile input name'
+
+01-01-2024T19:31:09 - [MESSAGE][PASSED] - Text 'PROFILE 2' is set on object 'Object Repository/profile input name'
+
+01-01-2024T19:31:09 - [TEST_STEP][PASSED] - click(findTestObject("profile input name continue")): Object: 'Object Repository/profile input name continue' is clicked on
+
+01-01-2024T19:31:09 - [MESSAGE][PASSED] - Object: 'Object Repository/profile input name continue' is clicked on
+
+01-01-2024T19:31:09 - [TEST_STEP][PASSED] - click(findTestObject("profile add 3")): Object: 'Object Repository/profile add 3' is clicked on
+
+01-01-2024T19:31:10 - [MESSAGE][PASSED] - Object: 'Object Repository/profile add 3' is clicked on
+
+01-01-2024T19:31:10 - [TEST_STEP][PASSED] - setText(findTestObject("profile input name"), "PROFILE 3"): Text 'PROFILE 3' is set on object 'Object Repository/profile input name'
+
+01-01-2024T19:31:12 - [MESSAGE][PASSED] - Text 'PROFILE 3' is set on object 'Object Repository/profile input name'
+
+01-01-2024T19:31:12 - [TEST_STEP][PASSED] - click(findTestObject("profile input name continue")): Object: 'Object Repository/profile input name continue' is clicked on
+
+01-01-2024T19:31:12 - [MESSAGE][PASSED] - Object: 'Object Repository/profile input name continue' is clicked on
+
+01-01-2024T19:31:12 - [TEST_STEP][PASSED] - click(findTestObject("profile add 4")): Object: 'Object Repository/profile add 4' is clicked on
+
+01-01-2024T19:31:14 - [MESSAGE][PASSED] - Object: 'Object Repository/profile add 4' is clicked on
+
+01-01-2024T19:31:14 - [TEST_STEP][PASSED] - setText(findTestObject("profile input name"), "PROFILE 4"): Text 'PROFILE 4' is set on object 'Object Repository/profile input name'
+
+01-01-2024T19:31:15 - [MESSAGE][PASSED] - Text 'PROFILE 4' is set on object 'Object Repository/profile input name'
+
+01-01-2024T19:31:15 - [TEST_STEP][PASSED] - click(findTestObject("profile input name continue")): Object: 'Object Repository/profile input name continue' is clicked on
+
+01-01-2024T19:31:15 - [MESSAGE][PASSED] - Object: 'Object Repository/profile input name continue' is clicked on
+
+01-01-2024T19:31:15 - [TEST_STEP][PASSED] - click(findTestObject("profile add 5")): Object: 'Object Repository/profile add 5' is clicked on
+
+01-01-2024T19:31:17 - [MESSAGE][PASSED] - Object: 'Object Repository/profile add 5' is clicked on
+
+01-01-2024T19:31:17 - [TEST_STEP][PASSED] - setText(findTestObject("profile input name"), "PROFILE 5"): Text 'PROFILE 5' is set on object 'Object Repository/profile input name'
+
+01-01-2024T19:31:19 - [MESSAGE][PASSED] - Text 'PROFILE 5' is set on object 'Object Repository/profile input name'
+
+01-01-2024T19:31:19 - [TEST_STEP][PASSED] - click(findTestObject("profile input name continue")): Object: 'Object Repository/profile input name continue' is clicked on
+
+01-01-2024T19:31:19 - [MESSAGE][PASSED] - Object: 'Object Repository/profile input name continue' is clicked on
+
+01-01-2024T19:31:19 - [TEST_STEP][PASSED] - click(findTestObject("profile done")): Object: 'Object Repository/profile done' is clicked on
+
+01-01-2024T19:31:23 - [MESSAGE][PASSED] - Object: 'Object Repository/profile done' is clicked on
+
+01-01-2024T19:31:23 - [TEST_STEP][PASSED] - navigateToUrl("https://www.netflix.com/YourAccount"): Navigate to 'https://www.netflix.com/YourAccount' successfully
+
+01-01-2024T19:31:24 - [MESSAGE][PASSED] - Navigate to 'https://www.netflix.com/YourAccount' successfully
+
+01-01-2024T19:31:24 - [TEST_STEP][PASSED] - click(findTestObject("pin expand button 1")): Object: 'Object Repository/pin expand button 1' is clicked on
+
+01-01-2024T19:31:25 - [MESSAGE][PASSED] - Object: 'Object Repository/pin expand button 1' is clicked on
+
+01-01-2024T19:31:25 - [TEST_STEP][PASSED] - click(findTestObject("pin change 1")): Object: 'Object Repository/pin change 1' is clicked on
+
+01-01-2024T19:31:27 - [MESSAGE][PASSED] - Object: 'Object Repository/pin change 1' is clicked on
+
+01-01-2024T19:31:27 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("pin input password"), "tcoL0gTvL8A="): Text ****** has been set on object 'Object Repository/pin input password'
+
+01-01-2024T19:31:27 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/pin input password'
+
+01-01-2024T19:31:27 - [TEST_STEP][PASSED] - click(findTestObject("pin input password continue")): Object: 'Object Repository/pin input password continue' is clicked on
+
+01-01-2024T19:31:28 - [MESSAGE][PASSED] - Object: 'Object Repository/pin input password continue' is clicked on
+
+01-01-2024T19:31:28 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("pin input A"), 5, CONTINUE_ON_FAILURE)): null
+
+01-01-2024T19:31:29 - [MESSAGE][PASSED] - Object 'Object Repository/pin input A' is present
+
+01-01-2024T19:31:29 - [TEST_STEP][PASSED] - setText(findTestObject("pin input A"), "1"): Text '1' is set on object 'Object Repository/pin input A'
+
+01-01-2024T19:31:29 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/pin input A'
+
+01-01-2024T19:31:29 - [TEST_STEP][PASSED] - setText(findTestObject("pin input B"), "1"): Text '1' is set on object 'Object Repository/pin input B'
+
+01-01-2024T19:31:30 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/pin input B'
+
+01-01-2024T19:31:30 - [TEST_STEP][PASSED] - setText(findTestObject("pin input C"), "1"): Text '1' is set on object 'Object Repository/pin input C'
+
+01-01-2024T19:31:31 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/pin input C'
+
+01-01-2024T19:31:31 - [TEST_STEP][PASSED] - setText(findTestObject("pin input D"), "1"): Text '1' is set on object 'Object Repository/pin input D'
+
+01-01-2024T19:31:32 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/pin input D'
+
+01-01-2024T19:31:32 - [TEST_STEP][PASSED] - click(findTestObject("pin input save 1")): Object: 'Object Repository/pin input save 1' is clicked on
+
+01-01-2024T19:31:33 - [MESSAGE][PASSED] - Object: 'Object Repository/pin input save 1' is clicked on
+
+01-01-2024T19:31:33 - [TEST_STEP][FAILED] - click(findTestObject("pin expand button 2")): Unable to click on object 'Object Repository/pin expand button 2' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/pin expand button 2'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Profile.run(Profile:132)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704112225466.run(TempTestSuite1704112225466.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/pin expand button 2' located by '//*[@id="profile_1"]/div/button' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Script1704101906775.run(Script1704101906775.groovy:132)
+	... 15 more
+)
+
+01-01-2024T19:31:36 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id="profile_1"]/div/button'. Please recheck the objects properties to make sure the desired element is located. 
+
+01-01-2024T19:31:36 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/pin expand button 2' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/pin expand button 2'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Profile.run(Profile:132)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704112225466.run(TempTestSuite1704112225466.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/pin expand button 2' located by '//*[@id="profile_1"]/div/button' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Script1704101906775.run(Script1704101906775.groovy:132)
+	... 15 more
+)
+[[ATTACHMENT|D:\\katalon\\Netflix\\Netflix - Create Profile\\Reports\\20240101_193025\\Reset\\20240101_193025\\1704112296524.png]]]]></system-out>
+         <system-err><![CDATA[01-01-2024T19:30:32 - [TEST_CASE][FAILED] - Test Cases/Profile: Test Cases/Profile FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/pin expand button 2'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Profile.run(Profile:132)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704112225466.run(TempTestSuite1704112225466.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/pin expand button 2' located by '//*[@id="profile_1"]/div/button' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[01-01-2024T19:30:32 - [TEST_SUITE][FAILED] - Reset: Test Cases/Profile FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/pin expand button 2'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Profile.run(Profile:132)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704112225466.run(TempTestSuite1704112225466.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/pin expand button 2' located by '//*[@id="profile_1"]/div/button' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[01-01-2024T19:30:32 - [TEST_SUITE][FAILED] - Reset: Test Cases/Profile FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/pin expand button 2'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Profile.run(Profile:132)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704112225466.run(TempTestSuite1704112225466.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/pin expand button 2' located by '//*[@id="profile_1"]/div/button' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

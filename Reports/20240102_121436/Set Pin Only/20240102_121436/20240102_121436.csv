@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Set Pin Only,Chrome 120.0.0.0,,,02-01-2024 12:14:43,02-01-2024 12:15:00,17.754s,ERROR
+,,,,,,,
+Test Cases/PinOnly,Chrome 120.0.0.0,,,02-01-2024 12:14:43,02-01-2024 12:15:00,17.426s,ERROR
+"openBrowser("""")",Chrome 120.0.0.0,,,02-01-2024 12:14:43,02-01-2024 12:14:46,2.218s,PASSED
+"navigateToUrl(""https://www.netflix.com/id/login"")",Chrome 120.0.0.0,,,02-01-2024 12:14:46,02-01-2024 12:14:49,3.205s,PASSED
+"click(findTestObject(""Object Repository/Login/1 email""))",Chrome 120.0.0.0,,,02-01-2024 12:14:49,02-01-2024 12:14:49,0.496s,PASSED
+"setText(findTestObject(""Object Repository/Login/2 user id""), email)",Chrome 120.0.0.0,,,02-01-2024 12:14:49,02-01-2024 12:14:51,1.247s,PASSED
+"setText(findTestObject(""Object Repository/Login/3 password""), password)",Chrome 120.0.0.0,,,02-01-2024 12:14:51,02-01-2024 12:14:51,0.811s,PASSED
+"click(findTestObject(""Object Repository/Login/4 sign in""))",Chrome 120.0.0.0,,,02-01-2024 12:14:51,02-01-2024 12:14:52,0.385s,PASSED
+delay(2),Chrome 120.0.0.0,,,02-01-2024 12:14:52,02-01-2024 12:14:54,2.043s,PASSED
+"navigateToUrl(""https://www.netflix.com/YourAccount"")",Chrome 120.0.0.0,,,02-01-2024 12:14:54,02-01-2024 12:14:56,2.636s,PASSED
+"click(findTestObject(""Pin/pin expand button 1""))",Chrome 120.0.0.0,,,02-01-2024 12:14:56,02-01-2024 12:14:57,0.841s,PASSED
+"click(findTestObject(""Pin/pin change 1""))",Chrome 120.0.0.0,,,02-01-2024 12:14:57,02-01-2024 12:14:59,1.416s,PASSED
+"setText(findTestObject(""Pin/pin input password""), password)",Chrome 120.0.0.0,,,02-01-2024 12:14:59,02-01-2024 12:15:00,0.916s,PASSED
+"click(findTestObject(""Pin/pin input password continue""))",Chrome 120.0.0.0,,,02-01-2024 12:15:00,02-01-2024 12:15:00,0.464s,PASSED
+"if (verifyElementNotPresent(findTestObject(""Pin/pin input A"")))",Chrome 120.0.0.0,,,02-01-2024 12:15:00,02-01-2024 12:15:00,0.156s,ERROR

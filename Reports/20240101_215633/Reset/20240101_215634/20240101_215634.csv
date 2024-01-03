@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Reset,Chrome 120.0.0.0,,,01-01-2024 21:56:42,01-01-2024 21:57:03,20.983s,FAILED
+,,,,,,,
+Test Cases/Profile,Chrome 120.0.0.0,,,01-01-2024 21:56:43,01-01-2024 21:56:51,8.495s,FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,01-01-2024 21:56:43,01-01-2024 21:56:45,2.168s,PASSED
+"navigateToUrl(""https://www.netflix.com/id/login"")",Chrome 120.0.0.0,,,01-01-2024 21:56:45,01-01-2024 21:56:49,3.825s,PASSED
+"click(findTestObject(""Object Repository/Login/1 email""))",Chrome 120.0.0.0,,,01-01-2024 21:56:49,01-01-2024 21:56:50,0.568s,PASSED
+"setText(findTestObject(""Object Repository/Login/2 user id""), email)",Chrome 120.0.0.0,,,01-01-2024 21:56:50,01-01-2024 21:56:51,0.788s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login/3 password""), password)",Chrome 120.0.0.0,,,01-01-2024 21:56:51,01-01-2024 21:56:51,0.523s,FAILED
+,,,,,,,
+Test Cases/Profile,Chrome 120.0.0.0,,,01-01-2024 21:56:51,01-01-2024 21:56:57,5.938s,FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,01-01-2024 21:56:51,01-01-2024 21:56:52,1.138s,PASSED
+"navigateToUrl(""https://www.netflix.com/id/login"")",Chrome 120.0.0.0,,,01-01-2024 21:56:52,01-01-2024 21:56:53,0.881s,PASSED
+"click(findTestObject(""Object Repository/Login/1 email""))",Chrome 120.0.0.0,,,01-01-2024 21:56:53,01-01-2024 21:56:56,2.672s,PASSED
+"setText(findTestObject(""Object Repository/Login/2 user id""), email)",Chrome 120.0.0.0,,,01-01-2024 21:56:56,01-01-2024 21:56:57,0.727s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login/3 password""), password)",Chrome 120.0.0.0,,,01-01-2024 21:56:57,01-01-2024 21:56:57,0.438s,FAILED
+,,,,,,,
+Test Cases/Profile,Chrome 120.0.0.0,,,01-01-2024 21:56:57,01-01-2024 21:57:03,6.070s,FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,01-01-2024 21:56:57,01-01-2024 21:56:58,1.058s,PASSED
+"navigateToUrl(""https://www.netflix.com/id/login"")",Chrome 120.0.0.0,,,01-01-2024 21:56:58,01-01-2024 21:57:02,3.347s,PASSED
+"click(findTestObject(""Object Repository/Login/1 email""))",Chrome 120.0.0.0,,,01-01-2024 21:57:02,01-01-2024 21:57:02,0.373s,PASSED
+"setText(findTestObject(""Object Repository/Login/2 user id""), email)",Chrome 120.0.0.0,,,01-01-2024 21:57:02,01-01-2024 21:57:03,0.729s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login/3 password""), password)",Chrome 120.0.0.0,,,01-01-2024 21:57:03,01-01-2024 21:57:03,0.502s,FAILED

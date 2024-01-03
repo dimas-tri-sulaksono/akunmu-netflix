@@ -1,0 +1,46 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Reset Pin,Chrome 120.0.0.0,,,02-01-2024 13:16:33,02-01-2024 13:18:24,1m - 51.507s,PASSED
+,,,,,,,
+Test Cases/TC Pin,Chrome 120.0.0.0,,,02-01-2024 13:16:33,02-01-2024 13:18:24,1m - 50.910s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,02-01-2024 13:16:34,02-01-2024 13:16:36,2.118s,PASSED
+"navigateToUrl(""https://www.netflix.com/id/login"")",Chrome 120.0.0.0,,,02-01-2024 13:16:36,02-01-2024 13:16:40,3.645s,PASSED
+"click(findTestObject(""Object Repository/Login/1 email""))",Chrome 120.0.0.0,,,02-01-2024 13:16:40,02-01-2024 13:16:40,0.490s,PASSED
+"setText(findTestObject(""Object Repository/Login/2 user id""), email)",Chrome 120.0.0.0,,,02-01-2024 13:16:40,02-01-2024 13:16:41,0.779s,PASSED
+"setText(findTestObject(""Object Repository/Login/3 password""), password)",Chrome 120.0.0.0,,,02-01-2024 13:16:41,02-01-2024 13:16:42,0.818s,PASSED
+"click(findTestObject(""Object Repository/Login/4 sign in""))",Chrome 120.0.0.0,,,02-01-2024 13:16:42,02-01-2024 13:16:42,0.374s,PASSED
+delay(2),Chrome 120.0.0.0,,,02-01-2024 13:16:42,02-01-2024 13:16:44,2.042s,PASSED
+"navigateToUrl(""https://www.netflix.com/YourAccount"")",Chrome 120.0.0.0,,,02-01-2024 13:16:44,02-01-2024 13:16:50,5.399s,PASSED
+"click(findTestObject(""Pin/pin expand button 1""))",Chrome 120.0.0.0,,,02-01-2024 13:16:50,02-01-2024 13:16:50,0.557s,PASSED
+"click(findTestObject(""Pin/pin change 1""))",Chrome 120.0.0.0,,,02-01-2024 13:16:50,02-01-2024 13:16:52,1.467s,PASSED
+"setText(findTestObject(""Pin/pin input password""), password)",Chrome 120.0.0.0,,,02-01-2024 13:16:52,02-01-2024 13:16:53,1.162s,PASSED
+"click(findTestObject(""Pin/pin input password continue""))",Chrome 120.0.0.0,,,02-01-2024 13:16:53,02-01-2024 13:16:53,0.531s,PASSED
+"if (verifyElementNotPresent(findTestObject(""Pin/pin input A""), 2, OPTIONAL))",Chrome 120.0.0.0,,,02-01-2024 13:16:53,02-01-2024 13:16:56,2.452s,PASSED
+else,Chrome 120.0.0.0,,,02-01-2024 13:16:56,02-01-2024 13:17:06,10.222s,PASSED
+"click(findTestObject(""Pin/pin expand button 2""))",Chrome 120.0.0.0,,,02-01-2024 13:17:06,02-01-2024 13:17:08,2.186s,PASSED
+"click(findTestObject(""Pin/pin change 2""))",Chrome 120.0.0.0,,,02-01-2024 13:17:08,02-01-2024 13:17:09,1.145s,PASSED
+"setText(findTestObject(""Pin/pin input password""), password)",Chrome 120.0.0.0,,,02-01-2024 13:17:09,02-01-2024 13:17:10,0.913s,PASSED
+"click(findTestObject(""Pin/pin input password continue""))",Chrome 120.0.0.0,,,02-01-2024 13:17:10,02-01-2024 13:17:11,0.448s,PASSED
+"if (verifyElementNotPresent(findTestObject(""Pin/pin input A""), 2, OPTIONAL))",Chrome 120.0.0.0,,,02-01-2024 13:17:11,02-01-2024 13:17:13,2.377s,PASSED
+else,Chrome 120.0.0.0,,,02-01-2024 13:17:13,02-01-2024 13:17:24,11.079s,PASSED
+"click(findTestObject(""Pin/pin expand button 3""))",Chrome 120.0.0.0,,,02-01-2024 13:17:24,02-01-2024 13:17:26,2.118s,PASSED
+"click(findTestObject(""Pin/pin change 3""))",Chrome 120.0.0.0,,,02-01-2024 13:17:26,02-01-2024 13:17:27,1.048s,PASSED
+"setText(findTestObject(""Pin/pin input password""), password)",Chrome 120.0.0.0,,,02-01-2024 13:17:27,02-01-2024 13:17:28,0.926s,PASSED
+"click(findTestObject(""Pin/pin input password continue""))",Chrome 120.0.0.0,,,02-01-2024 13:17:28,02-01-2024 13:17:29,0.450s,PASSED
+"if (verifyElementNotPresent(findTestObject(""Pin/pin input A""), 2, OPTIONAL))",Chrome 120.0.0.0,,,02-01-2024 13:17:29,02-01-2024 13:17:31,2.365s,PASSED
+else,Chrome 120.0.0.0,,,02-01-2024 13:17:31,02-01-2024 13:17:41,10.147s,PASSED
+"click(findTestObject(""Pin/pin expand button 4""))",Chrome 120.0.0.0,,,02-01-2024 13:17:41,02-01-2024 13:17:43,2.210s,PASSED
+"click(findTestObject(""Pin/pin change 4""))",Chrome 120.0.0.0,,,02-01-2024 13:17:43,02-01-2024 13:17:44,1.031s,PASSED
+"setText(findTestObject(""Pin/pin input password""), password)",Chrome 120.0.0.0,,,02-01-2024 13:17:44,02-01-2024 13:17:45,0.951s,PASSED
+"click(findTestObject(""Pin/pin input password continue""))",Chrome 120.0.0.0,,,02-01-2024 13:17:45,02-01-2024 13:17:46,0.442s,PASSED
+"if (verifyElementNotPresent(findTestObject(""Pin/pin input A""), 2, OPTIONAL))",Chrome 120.0.0.0,,,02-01-2024 13:17:46,02-01-2024 13:17:48,2.372s,PASSED
+else,Chrome 120.0.0.0,,,02-01-2024 13:17:48,02-01-2024 13:17:58,10.327s,PASSED
+"click(findTestObject(""Pin/pin expand button 5""))",Chrome 120.0.0.0,,,02-01-2024 13:17:58,02-01-2024 13:18:01,2.493s,PASSED
+"click(findTestObject(""Pin/pin change 5""))",Chrome 120.0.0.0,,,02-01-2024 13:18:01,02-01-2024 13:18:02,1.061s,PASSED
+"setText(findTestObject(""Pin/pin input password""), password)",Chrome 120.0.0.0,,,02-01-2024 13:18:02,02-01-2024 13:18:03,0.914s,PASSED
+"click(findTestObject(""Pin/pin input password continue""))",Chrome 120.0.0.0,,,02-01-2024 13:18:03,02-01-2024 13:18:03,0.448s,PASSED
+"if (verifyElementNotPresent(findTestObject(""Pin/pin input A""), 2, OPTIONAL))",Chrome 120.0.0.0,,,02-01-2024 13:18:03,02-01-2024 13:18:06,2.534s,PASSED
+else,Chrome 120.0.0.0,,,02-01-2024 13:18:06,02-01-2024 13:18:17,11.171s,PASSED
+delay(2),Chrome 120.0.0.0,,,02-01-2024 13:18:17,02-01-2024 13:18:19,2.011s,PASSED
+"navigateToUrl(""https://www.netflix.com/id/logout"")",Chrome 120.0.0.0,,,02-01-2024 13:18:19,02-01-2024 13:18:20,0.969s,PASSED
+"click(findTestObject(""sign out""))",Chrome 120.0.0.0,,,02-01-2024 13:18:20,02-01-2024 13:18:22,2.081s,PASSED
+delay(2),Chrome 120.0.0.0,,,02-01-2024 13:18:22,02-01-2024 13:18:24,2.018s,PASSED

@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Full Reset,Chrome 120.0.0.0,,,02-01-2024 20:57:05,02-01-2024 20:57:20,14.566s,FAILED
+,,,,,,,
+Test Cases/TC Full Reset,Chrome 120.0.0.0,,,02-01-2024 20:57:06,02-01-2024 20:57:20,14.090s,FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,02-01-2024 20:57:06,02-01-2024 20:57:09,2.563s,PASSED
+"navigateToUrl(""https://www.netflix.com/id/login"")",Chrome 120.0.0.0,,,02-01-2024 20:57:09,02-01-2024 20:57:20,10.812s,FAILED

@@ -20,6 +20,8 @@ import org.openqa.selenium.Keys as Keys
 WebUI.openBrowser('')
 
 // login
+WebUI.navigateToUrl('https://www.netflix.com/clearcookies')
+
 WebUI.navigateToUrl('https://www.netflix.com/id/login')
 
 WebUI.click(findTestObject('Object Repository/Login/1 email'))
@@ -31,13 +33,13 @@ WebUI.setText(findTestObject('Object Repository/Login/3 password'), password)
 WebUI.click(findTestObject('Object Repository/Login/4 sign in'))
 
 //end login
-WebUI.delay(2)
+WebUI.delay(10)
 
 // navigate to profiles manage
 WebUI.navigateToUrl('https://www.netflix.com/profiles/manage')
 
 // delete profile
-WebUI.click(findTestObject('Profile/profile yang ingin dihapus 2'), FailureHandling.OPTIONAL)
+WebUI.click(findTestObject('Profile/profile yang ingin dihapus 2'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Profile/profile delete'), FailureHandling.OPTIONAL)
 

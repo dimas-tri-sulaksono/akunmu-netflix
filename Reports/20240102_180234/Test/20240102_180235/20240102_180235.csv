@@ -1,0 +1,41 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test,Chrome 120.0.0.0,,,02-01-2024 18:02:43,02-01-2024 18:03:47,1m - 4.759s,PASSED
+,,,,,,,
+Test Cases/TC Test,Chrome 120.0.0.0,,,02-01-2024 18:02:43,02-01-2024 18:03:47,1m - 4.425s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,02-01-2024 18:02:43,02-01-2024 18:02:46,2.215s,PASSED
+"navigateToUrl(""https://www.netflix.com/id/login"")",Chrome 120.0.0.0,,,02-01-2024 18:02:46,02-01-2024 18:02:48,2.198s,PASSED
+"click(findTestObject(""Object Repository/Login/1 email""))",Chrome 120.0.0.0,,,02-01-2024 18:02:48,02-01-2024 18:02:48,0.476s,PASSED
+"setText(findTestObject(""Object Repository/Login/2 user id""), email)",Chrome 120.0.0.0,,,02-01-2024 18:02:48,02-01-2024 18:02:49,0.812s,PASSED
+"setText(findTestObject(""Object Repository/Login/3 password""), password)",Chrome 120.0.0.0,,,02-01-2024 18:02:49,02-01-2024 18:02:50,0.820s,PASSED
+"click(findTestObject(""Object Repository/Login/4 sign in""))",Chrome 120.0.0.0,,,02-01-2024 18:02:50,02-01-2024 18:02:50,0.364s,PASSED
+delay(2),Chrome 120.0.0.0,,,02-01-2024 18:02:50,02-01-2024 18:02:52,2.043s,PASSED
+"navigateToUrl(""https://www.netflix.com/YourAccount"")",Chrome 120.0.0.0,,,02-01-2024 18:02:52,02-01-2024 18:02:55,2.428s,PASSED
+"click(findTestObject(""Pin/pin expand button 1""))",Chrome 120.0.0.0,,,02-01-2024 18:02:55,02-01-2024 18:02:55,0.612s,PASSED
+"click(findTestObject(""StreamActivity/lihat 1""))",Chrome 120.0.0.0,,,02-01-2024 18:02:55,02-01-2024 18:02:57,1.417s,PASSED
+"click(findTestObject(""StreamActivity/sembunyikan""), OPTIONAL)",Chrome 120.0.0.0,,,02-01-2024 18:02:57,02-01-2024 18:03:00,3.215s,PASSED
+"click(findTestObject(""StreamActivity/sembunyikan ya""), OPTIONAL)",Chrome 120.0.0.0,,,02-01-2024 18:03:00,02-01-2024 18:03:03,3.227s,PASSED
+"navigateToUrl(""https://www.netflix.com/YourAccount"")",Chrome 120.0.0.0,,,02-01-2024 18:03:03,02-01-2024 18:03:05,1.281s,PASSED
+"click(findTestObject(""Pin/pin expand button 2""))",Chrome 120.0.0.0,,,02-01-2024 18:03:05,02-01-2024 18:03:07,2.239s,PASSED
+"click(findTestObject(""StreamActivity/lihat 2""))",Chrome 120.0.0.0,,,02-01-2024 18:03:07,02-01-2024 18:03:08,1.382s,PASSED
+"click(findTestObject(""StreamActivity/sembunyikan""), OPTIONAL)",Chrome 120.0.0.0,,,02-01-2024 18:03:08,02-01-2024 18:03:11,3.208s,PASSED
+"click(findTestObject(""StreamActivity/sembunyikan ya""), OPTIONAL)",Chrome 120.0.0.0,,,02-01-2024 18:03:11,02-01-2024 18:03:15,3.184s,PASSED
+"navigateToUrl(""https://www.netflix.com/YourAccount"")",Chrome 120.0.0.0,,,02-01-2024 18:03:15,02-01-2024 18:03:16,1.097s,PASSED
+"click(findTestObject(""Pin/pin expand button 3""))",Chrome 120.0.0.0,,,02-01-2024 18:03:16,02-01-2024 18:03:18,1.911s,PASSED
+"click(findTestObject(""StreamActivity/lihat 3""))",Chrome 120.0.0.0,,,02-01-2024 18:03:18,02-01-2024 18:03:19,1.104s,PASSED
+"click(findTestObject(""StreamActivity/sembunyikan""), OPTIONAL)",Chrome 120.0.0.0,,,02-01-2024 18:03:19,02-01-2024 18:03:19,0.712s,PASSED
+"click(findTestObject(""StreamActivity/sembunyikan ya""), OPTIONAL)",Chrome 120.0.0.0,,,02-01-2024 18:03:19,02-01-2024 18:03:20,0.468s,PASSED
+"navigateToUrl(""https://www.netflix.com/YourAccount"")",Chrome 120.0.0.0,,,02-01-2024 18:03:20,02-01-2024 18:03:21,1.266s,PASSED
+"click(findTestObject(""Pin/pin expand button 4""))",Chrome 120.0.0.0,,,02-01-2024 18:03:21,02-01-2024 18:03:22,0.833s,PASSED
+"click(findTestObject(""StreamActivity/lihat 4""))",Chrome 120.0.0.0,,,02-01-2024 18:03:22,02-01-2024 18:03:23,1.078s,PASSED
+"click(findTestObject(""StreamActivity/sembunyikan""), OPTIONAL)",Chrome 120.0.0.0,,,02-01-2024 18:03:23,02-01-2024 18:03:26,3.182s,PASSED
+"click(findTestObject(""StreamActivity/sembunyikan ya""), OPTIONAL)",Chrome 120.0.0.0,,,02-01-2024 18:03:26,02-01-2024 18:03:30,3.330s,PASSED
+"navigateToUrl(""https://www.netflix.com/YourAccount"")",Chrome 120.0.0.0,,,02-01-2024 18:03:30,02-01-2024 18:03:31,1.094s,PASSED
+"click(findTestObject(""Pin/pin expand button 5""))",Chrome 120.0.0.0,,,02-01-2024 18:03:31,02-01-2024 18:03:31,0.820s,PASSED
+"click(findTestObject(""StreamActivity/lihat 5""))",Chrome 120.0.0.0,,,02-01-2024 18:03:31,02-01-2024 18:03:32,0.998s,PASSED
+"click(findTestObject(""StreamActivity/sembunyikan""), OPTIONAL)",Chrome 120.0.0.0,,,02-01-2024 18:03:32,02-01-2024 18:03:36,3.416s,PASSED
+"click(findTestObject(""StreamActivity/sembunyikan ya""), OPTIONAL)",Chrome 120.0.0.0,,,02-01-2024 18:03:36,02-01-2024 18:03:39,3.313s,PASSED
+"navigateToUrl(""https://www.netflix.com/YourAccount"")",Chrome 120.0.0.0,,,02-01-2024 18:03:39,02-01-2024 18:03:40,1.062s,PASSED
+delay(2),Chrome 120.0.0.0,,,02-01-2024 18:03:40,02-01-2024 18:03:42,2.015s,PASSED
+"navigateToUrl(""https://www.netflix.com/id/logout"")",Chrome 120.0.0.0,,,02-01-2024 18:03:42,02-01-2024 18:03:43,1.082s,PASSED
+"click(findTestObject(""sign out""))",Chrome 120.0.0.0,,,02-01-2024 18:03:43,02-01-2024 18:03:45,1.948s,PASSED
+delay(2),Chrome 120.0.0.0,,,02-01-2024 18:03:45,02-01-2024 18:03:47,2.012s,PASSED

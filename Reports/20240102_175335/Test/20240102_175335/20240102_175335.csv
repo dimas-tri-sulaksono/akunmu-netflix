@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test,Chrome 120.0.0.0,,,02-01-2024 17:53:42,02-01-2024 17:54:07,24.517s,PASSED
+,,,,,,,
+Test Cases/TC Test,Chrome 120.0.0.0,,,02-01-2024 17:53:43,02-01-2024 17:54:07,24.035s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,02-01-2024 17:53:43,02-01-2024 17:53:45,2.079s,PASSED
+"navigateToUrl(""https://www.netflix.com/id/login"")",Chrome 120.0.0.0,,,02-01-2024 17:53:45,02-01-2024 17:53:49,3.186s,PASSED
+"click(findTestObject(""Object Repository/Login/1 email""))",Chrome 120.0.0.0,,,02-01-2024 17:53:49,02-01-2024 17:53:49,0.482s,PASSED
+"setText(findTestObject(""Object Repository/Login/2 user id""), email)",Chrome 120.0.0.0,,,02-01-2024 17:53:49,02-01-2024 17:53:50,0.761s,PASSED
+"setText(findTestObject(""Object Repository/Login/3 password""), password)",Chrome 120.0.0.0,,,02-01-2024 17:53:50,02-01-2024 17:53:51,0.831s,PASSED
+"click(findTestObject(""Object Repository/Login/4 sign in""))",Chrome 120.0.0.0,,,02-01-2024 17:53:51,02-01-2024 17:53:51,0.366s,PASSED
+delay(2),Chrome 120.0.0.0,,,02-01-2024 17:53:51,02-01-2024 17:53:53,2.048s,PASSED
+"navigateToUrl(""https://www.netflix.com/YourAccount"")",Chrome 120.0.0.0,,,02-01-2024 17:53:53,02-01-2024 17:53:55,2.132s,PASSED
+"click(findTestObject(""Pin/pin expand button 1""))",Chrome 120.0.0.0,,,02-01-2024 17:53:55,02-01-2024 17:53:56,0.645s,PASSED
+"click(findTestObject(""StreamActivity/lihat 1""))",Chrome 120.0.0.0,,,02-01-2024 17:53:56,02-01-2024 17:53:57,1.473s,PASSED
+"click(findTestObject(""StreamActivity/sembunyikan""), OPTIONAL)",Chrome 120.0.0.0,,,02-01-2024 17:53:57,02-01-2024 17:53:58,0.618s,PASSED
+"click(findTestObject(""StreamActivity/sembunyikan ya""), OPTIONAL)",Chrome 120.0.0.0,,,02-01-2024 17:53:58,02-01-2024 17:53:58,0.453s,PASSED
+"navigateToUrl(""https://www.netflix.com/YourAccount"")",Chrome 120.0.0.0,,,02-01-2024 17:53:58,02-01-2024 17:54:00,1.221s,PASSED
+delay(2),Chrome 120.0.0.0,,,02-01-2024 17:54:00,02-01-2024 17:54:02,2.011s,PASSED
+"navigateToUrl(""https://www.netflix.com/id/logout"")",Chrome 120.0.0.0,,,02-01-2024 17:54:02,02-01-2024 17:54:03,0.974s,PASSED
+"click(findTestObject(""sign out""))",Chrome 120.0.0.0,,,02-01-2024 17:54:03,02-01-2024 17:54:05,2.110s,PASSED
+delay(2),Chrome 120.0.0.0,,,02-01-2024 17:54:05,02-01-2024 17:54:07,2.004s,PASSED

@@ -1,0 +1,57 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Full Reset v2.0,Chrome 120.0.0.0,,,02-01-2024 19:56:43,02-01-2024 19:57:54,1m - 10.725s,FAILED
+,,,,,,,
+Test Cases/TC Full Reset v2.0,Chrome 120.0.0.0,,,02-01-2024 19:56:44,02-01-2024 19:56:59,15.745s,FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,02-01-2024 19:56:44,02-01-2024 19:56:47,2.361s,PASSED
+"navigateToUrl(""https://www.netflix.com/id/login"")",Chrome 120.0.0.0,,,02-01-2024 19:56:47,02-01-2024 19:56:49,2.188s,PASSED
+"click(findTestObject(""Object Repository/Login/1 email""))",Chrome 120.0.0.0,,,02-01-2024 19:56:49,02-01-2024 19:56:51,1.839s,PASSED
+"setText(findTestObject(""Object Repository/Login/2 user id""), email)",Chrome 120.0.0.0,,,02-01-2024 19:56:51,02-01-2024 19:56:52,0.778s,PASSED
+"setText(findTestObject(""Object Repository/Login/3 password""), password)",Chrome 120.0.0.0,,,02-01-2024 19:56:52,02-01-2024 19:56:53,0.839s,PASSED
+"click(findTestObject(""Object Repository/Login/4 sign in""))",Chrome 120.0.0.0,,,02-01-2024 19:56:53,02-01-2024 19:56:53,0.417s,PASSED
+delay(2),Chrome 120.0.0.0,,,02-01-2024 19:56:53,02-01-2024 19:56:55,2.050s,PASSED
+"navigateToUrl(""https://www.netflix.com/profiles/manage"")",Chrome 120.0.0.0,,,02-01-2024 19:56:55,02-01-2024 19:56:57,1.722s,PASSED
+"click(findTestObject(""Profile/profile yang ingin dihapus 2""), STOP_ON_FAILURE)",Chrome 120.0.0.0,,,02-01-2024 19:56:57,02-01-2024 19:56:59,2.716s,FAILED
+,,,,,,,
+Test Cases/TC Full Reset v2.0,Chrome 120.0.0.0,,,02-01-2024 19:56:59,02-01-2024 19:57:13,13.375s,FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,02-01-2024 19:57:00,02-01-2024 19:57:01,1.265s,PASSED
+"navigateToUrl(""https://www.netflix.com/id/login"")",Chrome 120.0.0.0,,,02-01-2024 19:57:01,02-01-2024 19:57:02,0.956s,PASSED
+"click(findTestObject(""Object Repository/Login/1 email""))",Chrome 120.0.0.0,,,02-01-2024 19:57:02,02-01-2024 19:57:05,2.688s,PASSED
+"setText(findTestObject(""Object Repository/Login/2 user id""), email)",Chrome 120.0.0.0,,,02-01-2024 19:57:05,02-01-2024 19:57:05,0.746s,PASSED
+"setText(findTestObject(""Object Repository/Login/3 password""), password)",Chrome 120.0.0.0,,,02-01-2024 19:57:05,02-01-2024 19:57:06,0.838s,PASSED
+"click(findTestObject(""Object Repository/Login/4 sign in""))",Chrome 120.0.0.0,,,02-01-2024 19:57:06,02-01-2024 19:57:07,0.366s,PASSED
+delay(2),Chrome 120.0.0.0,,,02-01-2024 19:57:07,02-01-2024 19:57:09,2.010s,PASSED
+"navigateToUrl(""https://www.netflix.com/profiles/manage"")",Chrome 120.0.0.0,,,02-01-2024 19:57:09,02-01-2024 19:57:10,1.614s,PASSED
+"click(findTestObject(""Profile/profile yang ingin dihapus 2""), STOP_ON_FAILURE)",Chrome 120.0.0.0,,,02-01-2024 19:57:10,02-01-2024 19:57:13,2.658s,FAILED
+,,,,,,,
+Test Cases/TC Full Reset v2.0,Chrome 120.0.0.0,,,02-01-2024 19:57:13,02-01-2024 19:57:27,14.146s,FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,02-01-2024 19:57:13,02-01-2024 19:57:14,1.053s,PASSED
+"navigateToUrl(""https://www.netflix.com/id/login"")",Chrome 120.0.0.0,,,02-01-2024 19:57:14,02-01-2024 19:57:18,4.242s,PASSED
+"click(findTestObject(""Object Repository/Login/1 email""))",Chrome 120.0.0.0,,,02-01-2024 19:57:18,02-01-2024 19:57:19,0.352s,PASSED
+"setText(findTestObject(""Object Repository/Login/2 user id""), email)",Chrome 120.0.0.0,,,02-01-2024 19:57:19,02-01-2024 19:57:20,1.000s,PASSED
+"setText(findTestObject(""Object Repository/Login/3 password""), password)",Chrome 120.0.0.0,,,02-01-2024 19:57:20,02-01-2024 19:57:20,0.837s,PASSED
+"click(findTestObject(""Object Repository/Login/4 sign in""))",Chrome 120.0.0.0,,,02-01-2024 19:57:20,02-01-2024 19:57:21,0.372s,PASSED
+delay(2),Chrome 120.0.0.0,,,02-01-2024 19:57:21,02-01-2024 19:57:23,2.016s,PASSED
+"navigateToUrl(""https://www.netflix.com/profiles/manage"")",Chrome 120.0.0.0,,,02-01-2024 19:57:23,02-01-2024 19:57:24,1.594s,PASSED
+"click(findTestObject(""Profile/profile yang ingin dihapus 2""), STOP_ON_FAILURE)",Chrome 120.0.0.0,,,02-01-2024 19:57:24,02-01-2024 19:57:27,2.633s,FAILED
+,,,,,,,
+Test Cases/TC Full Reset v2.0,Chrome 120.0.0.0,,,02-01-2024 19:57:27,02-01-2024 19:57:40,13.036s,FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,02-01-2024 19:57:27,02-01-2024 19:57:28,1.189s,PASSED
+"navigateToUrl(""https://www.netflix.com/id/login"")",Chrome 120.0.0.0,,,02-01-2024 19:57:28,02-01-2024 19:57:31,3.157s,PASSED
+"click(findTestObject(""Object Repository/Login/1 email""))",Chrome 120.0.0.0,,,02-01-2024 19:57:31,02-01-2024 19:57:32,0.475s,PASSED
+"setText(findTestObject(""Object Repository/Login/2 user id""), email)",Chrome 120.0.0.0,,,02-01-2024 19:57:32,02-01-2024 19:57:33,0.738s,PASSED
+"setText(findTestObject(""Object Repository/Login/3 password""), password)",Chrome 120.0.0.0,,,02-01-2024 19:57:33,02-01-2024 19:57:34,0.820s,PASSED
+"click(findTestObject(""Object Repository/Login/4 sign in""))",Chrome 120.0.0.0,,,02-01-2024 19:57:34,02-01-2024 19:57:34,0.360s,PASSED
+delay(2),Chrome 120.0.0.0,,,02-01-2024 19:57:34,02-01-2024 19:57:36,2.015s,PASSED
+"navigateToUrl(""https://www.netflix.com/profiles/manage"")",Chrome 120.0.0.0,,,02-01-2024 19:57:36,02-01-2024 19:57:37,1.605s,PASSED
+"click(findTestObject(""Profile/profile yang ingin dihapus 2""), STOP_ON_FAILURE)",Chrome 120.0.0.0,,,02-01-2024 19:57:37,02-01-2024 19:57:40,2.620s,FAILED
+,,,,,,,
+Test Cases/TC Full Reset v2.0,Chrome 120.0.0.0,,,02-01-2024 19:57:40,02-01-2024 19:57:54,13.883s,FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,02-01-2024 19:57:40,02-01-2024 19:57:41,1.209s,PASSED
+"navigateToUrl(""https://www.netflix.com/id/login"")",Chrome 120.0.0.0,,,02-01-2024 19:57:41,02-01-2024 19:57:45,4.046s,PASSED
+"click(findTestObject(""Object Repository/Login/1 email""))",Chrome 120.0.0.0,,,02-01-2024 19:57:45,02-01-2024 19:57:46,0.484s,PASSED
+"setText(findTestObject(""Object Repository/Login/2 user id""), email)",Chrome 120.0.0.0,,,02-01-2024 19:57:46,02-01-2024 19:57:47,0.735s,PASSED
+"setText(findTestObject(""Object Repository/Login/3 password""), password)",Chrome 120.0.0.0,,,02-01-2024 19:57:47,02-01-2024 19:57:47,0.825s,PASSED
+"click(findTestObject(""Object Repository/Login/4 sign in""))",Chrome 120.0.0.0,,,02-01-2024 19:57:47,02-01-2024 19:57:48,0.366s,PASSED
+delay(2),Chrome 120.0.0.0,,,02-01-2024 19:57:48,02-01-2024 19:57:50,2.017s,PASSED
+"navigateToUrl(""https://www.netflix.com/profiles/manage"")",Chrome 120.0.0.0,,,02-01-2024 19:57:50,02-01-2024 19:57:51,1.555s,PASSED
+"click(findTestObject(""Profile/profile yang ingin dihapus 2""), STOP_ON_FAILURE)",Chrome 120.0.0.0,,,02-01-2024 19:57:51,02-01-2024 19:57:54,2.612s,FAILED

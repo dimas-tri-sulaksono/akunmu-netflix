@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Full Reset,Chrome 120.0.0.0,,,02-01-2024 17:07:26,02-01-2024 17:07:56,30.291s,FAILED
+,,,,,,,
+Test Cases/TC Full Reset,Chrome 120.0.0.0,,,02-01-2024 17:07:27,02-01-2024 17:07:56,29.425s,FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,02-01-2024 17:07:28,02-01-2024 17:07:32,3.460s,PASSED
+"navigateToUrl(""https://www.netflix.com/id/login"")",Chrome 120.0.0.0,,,02-01-2024 17:07:32,02-01-2024 17:07:37,5.033s,PASSED
+"click(findTestObject(""Object Repository/Login/1 email""))",Chrome 120.0.0.0,,,02-01-2024 17:07:37,02-01-2024 17:07:37,0.546s,PASSED
+"setText(findTestObject(""Object Repository/Login/2 user id""), email)",Chrome 120.0.0.0,,,02-01-2024 17:07:37,02-01-2024 17:07:38,0.771s,PASSED
+"setText(findTestObject(""Object Repository/Login/3 password""), password)",Chrome 120.0.0.0,,,02-01-2024 17:07:38,02-01-2024 17:07:39,0.806s,PASSED
+"click(findTestObject(""Object Repository/Login/4 sign in""))",Chrome 120.0.0.0,,,02-01-2024 17:07:39,02-01-2024 17:07:39,0.405s,PASSED
+delay(2),Chrome 120.0.0.0,,,02-01-2024 17:07:39,02-01-2024 17:07:41,2.058s,PASSED
+"navigateToUrl(""https://www.netflix.com/profiles/manage"")",Chrome 120.0.0.0,,,02-01-2024 17:07:41,02-01-2024 17:07:46,4.582s,PASSED
+"click(findTestObject(""Profile/profile yang ingin dihapus""), OPTIONAL)",Chrome 120.0.0.0,,,02-01-2024 17:07:46,02-01-2024 17:07:49,3.384s,PASSED
+"click(findTestObject(""Profile/profile delete""), OPTIONAL)",Chrome 120.0.0.0,,,02-01-2024 17:07:49,02-01-2024 17:07:52,3.375s,PASSED
+"click(findTestObject(""Profile/profile delete confirm""), OPTIONAL)",Chrome 120.0.0.0,,,02-01-2024 17:07:52,02-01-2024 17:07:55,2.752s,PASSED
+"click(findTestObject(""Profile/profile yang ingin dihapus""), OPTIONAL)",Chrome 120.0.0.0,,,02-01-2024 17:07:55,02-01-2024 17:07:55,0.066s,PASSED
+"click(findTestObject(""Profile/profile delete""), OPTIONAL)",Chrome 120.0.0.0,,,02-01-2024 17:07:55,02-01-2024 17:07:55,0.094s,PASSED
+"click(findTestObject(""Profile/profile delete confirm""), OPTIONAL)",Chrome 120.0.0.0,,,02-01-2024 17:07:55,02-01-2024 17:07:55,0.078s,PASSED
+"click(findTestObject(""Profile/profile yang ingin dihapus""), OPTIONAL)",Chrome 120.0.0.0,,,02-01-2024 17:07:55,02-01-2024 17:07:56,0.075s,PASSED
+"click(findTestObject(""Profile/profile delete""), OPTIONAL)",Chrome 120.0.0.0,,,02-01-2024 17:07:56,02-01-2024 17:07:56,0.095s,PASSED
+"click(findTestObject(""Profile/profile delete confirm""), OPTIONAL)",Chrome 120.0.0.0,,,02-01-2024 17:07:56,02-01-2024 17:07:56,0.095s,PASSED
+"click(findTestObject(""Profile/profile yang ingin dihapus""), OPTIONAL)",Chrome 120.0.0.0,,,02-01-2024 17:07:56,02-01-2024 17:07:56,0.100s,PASSED
+"click(findTestObject(""Profile/profile delete""), OPTIONAL)",Chrome 120.0.0.0,,,02-01-2024 17:07:56,02-01-2024 17:07:56,0.087s,PASSED
+"click(findTestObject(""Profile/profile delete confirm""), OPTIONAL)",Chrome 120.0.0.0,,,02-01-2024 17:07:56,02-01-2024 17:07:56,0.109s,PASSED
+"navigateToUrl(""https://www.netflix.com/profiles/manage"", OPTIONAL)",Chrome 120.0.0.0,,,02-01-2024 17:07:56,02-01-2024 17:07:56,0.025s,PASSED
+"click(findTestObject(""Profile/profile edit name 1""))",Chrome 120.0.0.0,,,02-01-2024 17:07:56,02-01-2024 17:07:56,0.077s,FAILED
